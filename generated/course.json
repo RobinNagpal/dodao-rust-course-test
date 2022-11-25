@@ -1288,38 +1288,6 @@
           ]
         },
         {
-          "uuid": "118287fb-f962-4c6a-b7bb-f774e36f02bf",
-          "type": "SingleChoice",
-          "content": "Rust variable names can start with",
-          "hint": "noHint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "variables"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Letter, underscore",
-              "key": "A"
-            },
-            {
-              "content": "Letter, digits",
-              "key": "B"
-            },
-            {
-              "content": "Underscore, digits",
-              "key": "C"
-            },
-            {
-              "content": "All of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
           "uuid": "853bbf17-ceb6-4a7c-9a32-c05f048a9ce6",
           "type": "SingleChoice",
           "content": "Identify the wrong set of rust keywords",
@@ -1347,6 +1315,38 @@
             },
             {
               "content": "become, box, do, incur",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "118287fb-f962-4c6a-b7bb-f774e36f02bf",
+          "type": "SingleChoice",
+          "content": "Rust variable names can start with",
+          "hint": "noHint",
+          "explanation": "explanation",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "variables"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Letter, underscore",
+              "key": "A"
+            },
+            {
+              "content": "Letter, digits",
+              "key": "B"
+            },
+            {
+              "content": "Underscore, digits",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
               "key": "D"
             }
           ]
@@ -2741,38 +2741,6 @@
           ]
         },
         {
-          "uuid": "118287fb-f962-4c6a-b7bb-f774e36f02bf",
-          "type": "SingleChoice",
-          "content": "Rust variable names can start with",
-          "hint": "noHint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "variables"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Letter, underscore",
-              "key": "A"
-            },
-            {
-              "content": "Letter, digits",
-              "key": "B"
-            },
-            {
-              "content": "Underscore, digits",
-              "key": "C"
-            },
-            {
-              "content": "All of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
           "uuid": "853bbf17-ceb6-4a7c-9a32-c05f048a9ce6",
           "type": "SingleChoice",
           "content": "Identify the wrong set of rust keywords",
@@ -2800,6 +2768,38 @@
             },
             {
               "content": "become, box, do, incur",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "118287fb-f962-4c6a-b7bb-f774e36f02bf",
+          "type": "SingleChoice",
+          "content": "Rust variable names can start with",
+          "hint": "noHint",
+          "explanation": "explanation",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "variables"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Letter, underscore",
+              "key": "A"
+            },
+            {
+              "content": "Letter, digits",
+              "key": "B"
+            },
+            {
+              "content": "Underscore, digits",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
               "key": "D"
             }
           ]
