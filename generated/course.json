@@ -8044,12 +8044,10 @@
           "hint": "noHint",
           "explanation": "explanation",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "subTopics": [
-            "strings"
-          ],
-          "difficultyLevel": "Low",
+          "subTopics": [],
+          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "True",

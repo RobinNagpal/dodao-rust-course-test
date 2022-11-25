@@ -732,15 +732,14 @@
   hint: noHint
   explanation: explanation
   answerKeys:
-    - A
-  subTopics:
-    - strings
-  difficultyLevel: Low
+    - B
+  subTopics: []
+  difficultyLevel: Medium
   choices:
-    - content: 'True'
-      key: A
-    - content: 'False'
-      key: B
+    - key: A
+      content: 'True'
+    - key: B
+      content: 'False'
 - uuid: 504040ac-6167-4304-8d6e-1e559975bac5
   type: SingleChoice
   content: |
