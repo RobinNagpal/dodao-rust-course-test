@@ -1202,17 +1202,3 @@
       key: C
     - content: Money
       key: D
-- uuid: 2d284b9b-2dff-4557-8954-26bf2e19efb5
-  type: SingleChoice
-  content: Some
-  hint: NoHint
-  explanation: asdasd
-  answerKeys:
-    - A
-  subTopics: []
-  difficultyLevel: Medium
-  choices:
-    - content: eeee
-      key: A
-    - content: ddd
-      key: 8881a3ca
