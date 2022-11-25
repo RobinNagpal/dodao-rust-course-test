@@ -8,7 +8,7 @@
               let x = 12;
               println!("The value of x is: {x}");
               x = 8;
-              println!("The value of x is: {x}");
+              println!("The value of x is: {x}");;
             } 
         ```
   hint: NoHint

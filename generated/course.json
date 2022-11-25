@@ -6952,7 +6952,7 @@
         {
           "uuid": "ab88a2ab-c80b-49f5-9ea0-b5ed8e4933b1",
           "type": "SingleChoice",
-          "content": "What is the output of the following code snippet:\n \n    ```javascript\n        fn main() {\n          let x = 12;\n          println!(\"The value of x is: {x}\");\n          x = 8;\n          println!(\"The value of x is: {x}\");\n        } \n    ```\n",
+          "content": "What is the output of the following code snippet:\n \n    ```javascript\n        fn main() {\n          let x = 12;\n          println!(\"The value of x is: {x}\");\n          x = 8;\n          println!(\"The value of x is: {x}\");;\n        } \n    ```\n",
           "hint": "NoHint",
           "explanation": "Error would occur, because the variable x isn't set as mutable so it's value can't be changed.",
           "answerKeys": [
