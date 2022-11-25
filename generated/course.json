@@ -4558,16 +4558,16 @@
           "details": "- Using conditional AND, you can test whether one condition and another are true. Before the code can be executed, both conditions must be met.\n- When AND is used to evaluate multiple conditions, the && operator is used to separate them.\n- The two logical operators && and || allow us to evaluate more than one condition in an if statement.\n  ```rust\n    fn main() {\n     let a = 5;\n     if a > 0 && a < 10 {\n         println!(\"Both conditions are true\");\n     }\n    }\n  ```\n- Due to the fact that both of our conditions are true in the example above, the code inside the if code block is executed.\n- It tests whether one condition or another is true by using the conditional OR. It is not necessary for both conditions to be true in order for the code to run.\n- The || operator is used to separate multiple conditions with OR.\n  ```rust\n    fn main() {\n      let a = 5;\n      if a > 5 || a < 10 {\n        println!(\"One of the conditions are true\");\n      }\n    }\n  ```\n"
         },
         {
-          "title": "How to nest if, else if and else statements?",
-          "shortTitle": "Nested if continues",
-          "key": "nested-if-else-statement",
-          "details": "- Nesting is the process of placing if statements inside other if statements. \n- By performing the evaluations hierarchically, the compiler will start at the outer if statement and work inwards.\n- We nest an if statement by writing it inside the execution code block of another if statement.\n```rust\nfn main() {\n let number = 5;\n if number < 10 {\n     // if outer condition proves\n     // true evaluate the inner if\n     if number > 0 {\n         println!(\"Inner if statement\");\n     }\n  }\n}\n```\n- In the example above, our outer if statement condition proves true. \n- The compiler then evaluates the inner if statement and executes its code block if its condition proves true.\n- Nested if statements are used when we want to evaluate conditions only if other conditions are true.\n- Note that if you find yourself nesting more than 3 levels deep, you should consider finding a different method. Perhaps a loop.\n"
-        },
-        {
           "title": "Control Flow",
           "shortTitle": "Control flow",
           "key": "control-flow",
           "details": "- In most cases, the computer runs the code in order from the first line in the file to the last line, unless it encounters structures that alter the control flow, such as loops and conditionals.\n- Many programming languages allow you to run some code depending on whether a condition is true, or run some code repeatedly while a condition is true. \n- If expressions and loops are the most common constructs in Rust that control execution flow.\n- We control the flow of our program with the following statements, in combination with relational comparison and logical operators.\n  * If else\n  * Match\n  * Loop\n  * For loop\n"
+        },
+        {
+          "title": "How to nest if, else if and else statements?",
+          "shortTitle": "Nested if continues",
+          "key": "nested-if-else-statement",
+          "details": "- Nesting is the process of placing if statements inside other if statements. \n- By performing the evaluations hierarchically, the compiler will start at the outer if statement and work inwards.\n- We nest an if statement by writing it inside the execution code block of another if statement.\n```rust\nfn main() {\n let number = 5;\n if number < 10 {\n     // if outer condition proves\n     // true evaluate the inner if\n     if number > 0 {\n         println!(\"Inner if statement\");\n     }\n  }\n}\n```\n- In the example above, our outer if statement condition proves true. \n- The compiler then evaluates the inner if statement and executes its code block if its condition proves true.\n- Nested if statements are used when we want to evaluate conditions only if other conditions are true.\n- Note that if you find yourself nesting more than 3 levels deep, you should consider finding a different method. Perhaps a loop.\n"
         },
         {
           "title": "The conditional match statement",

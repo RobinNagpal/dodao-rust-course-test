@@ -81,6 +81,26 @@
           }
         }
       ```
+- title: Control Flow
+  shortTitle: Control flow
+  key: control-flow
+  details: >
+    - In most cases, the computer runs the code in order from the first line in
+    the file to the last line, unless it encounters structures that alter the
+    control flow, such as loops and conditionals.
+
+    - Many programming languages allow you to run some code depending on whether
+    a condition is true, or run some code repeatedly while a condition is true. 
+
+    - If expressions and loops are the most common constructs in Rust that
+    control execution flow.
+
+    - We control the flow of our program with the following statements, in
+    combination with relational comparison and logical operators.
+      * If else
+      * Match
+      * Loop
+      * For loop
 - title: How to nest if, else if and else statements?
   shortTitle: Nested if continues
   key: nested-if-else-statement
@@ -119,26 +139,6 @@
 
     - Note that if you find yourself nesting more than 3 levels deep, you should
     consider finding a different method. Perhaps a loop.
-- title: Control Flow
-  shortTitle: Control flow
-  key: control-flow
-  details: >
-    - In most cases, the computer runs the code in order from the first line in
-    the file to the last line, unless it encounters structures that alter the
-    control flow, such as loops and conditionals.
-
-    - Many programming languages allow you to run some code depending on whether
-    a condition is true, or run some code repeatedly while a condition is true. 
-
-    - If expressions and loops are the most common constructs in Rust that
-    control execution flow.
-
-    - We control the flow of our program with the following statements, in
-    combination with relational comparison and logical operators.
-      * If else
-      * Match
-      * Loop
-      * For loop
 - title: The conditional match statement
   shortTitle: Match statement
   key: match-statement
