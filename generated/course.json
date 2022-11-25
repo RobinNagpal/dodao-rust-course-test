@@ -8312,30 +8312,6 @@
               "key": "D"
             }
           ]
-        },
-        {
-          "uuid": "e8c7d69e-3899-43aa-aaec-e45870a32a3f",
-          "type": "SingleChoice",
-          "content": "In Rust, every value has its data type. The data type tells the compiler what kind of value it is and how to use it.",
-          "hint": "noHint",
-          "explanation": "No explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "typed_language"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "True",
-              "key": "A"
-            },
-            {
-              "content": "False",
-              "key": "B"
-            }
-          ]
         }
       ],
       "readings": [

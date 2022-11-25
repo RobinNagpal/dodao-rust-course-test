@@ -11,30 +11,31 @@
               println!("The value of x is: {x}");
             } 
         ```
-
   hint: NoHint
-  explanation: "Error would occur, because the variable x isn't set as mutable so it's value can't be changed."
+  explanation: >-
+    Error would occur, because the variable x isn't set as mutable so it's value
+    can't be changed.
   answerKeys:
     - D
   subTopics:
     - variables
   difficultyLevel: Low
   choices:
-    - content: "The value of x is: 8"
-
+    - content: 'The value of x is: 8'
       key: A
-    - content: "Error: the variable x is mutable"
+    - content: 'Error: the variable x is mutable'
       key: B
-    - content: "The value of x is: 12"
+    - content: 'The value of x is: 12'
       key: C
-    - content: "Error: the variable x is immutable"
+    - content: 'Error: the variable x is immutable'
       key: D
-
 - uuid: 23a0e9e5-6c47-4512-98a5-4cd3ab6eff25
   type: SingleChoice
   content: Space taken by a Character data type in rust is
-  hint: "It doesn't use ASCII values"
-  explanation: "Rust's char type is four bytes in size and represents a Unicode Scalar Value, which means it can represent a lot more than just ASCII."
+  hint: It doesn't use ASCII values
+  explanation: >-
+    Rust's char type is four bytes in size and represents a Unicode Scalar
+    Value, which means it can represent a lot more than just ASCII.
   answerKeys:
     - B
   subTopics:
@@ -49,7 +50,6 @@
       key: C
     - content: 16 bytes
       key: D
-
 - uuid: 39385b22-7604-492f-9c2e-aaae409c6b79
   type: SingleChoice
   content: Rust is a Dynamically typed language.
@@ -61,9 +61,9 @@
     - typed_language
   difficultyLevel: Low
   choices:
-    - content: "True"
+    - content: 'True'
       key: A
-    - content: "False"
+    - content: 'False'
       key: B
 - uuid: 6b844c24-f769-4662-a591-83c0a5f8c6c3
   type: SingleChoice
@@ -76,18 +76,19 @@
     - variables
   difficultyLevel: Low
   choices:
-    - content: "let mut x: u32 = 20;"
+    - content: 'let mut x: u32 = 20;'
       key: A
-    - content: "let mut x: i32 = -20;"
+    - content: 'let mut x: i32 = -20;'
       key: B
-    - content: "let mut x: u32 = -20;"
+    - content: 'let mut x: u32 = -20;'
       key: C
-    - content: "let mut x = 20;"
+    - content: let mut x = 20;
       key: D
-
 - uuid: 6f2cb4ae-db4d-4c04-bfd4-37669695dab0
   type: SingleChoice
-  content: Suppose you declared a variable as u8 and then assigned it a value of "257". What would be the output if it’s compiled with a "`“--release” flag?`"
+  content: >-
+    Suppose you declared a variable as u8 and then assigned it a value of "257".
+    What would be the output if it’s compiled with a "`“--release” flag?`"
   hint: NoHint
   explanation: After 255 the digits start rolling back to 0, 1 and so on
   answerKeys:
@@ -96,15 +97,14 @@
     - bit-manupilation
   difficultyLevel: High
   choices:
-    - content: "257"
+    - content: '257'
       key: A
-    - content: "Error: Integer Overflow"
+    - content: 'Error: Integer Overflow'
       key: B
-    - content: "0"
+    - content: '0'
       key: C
-    - content: "1"
+    - content: '1'
       key: D
-
 - uuid: 0708f185-46b5-45ee-ac47-3e7e1ca611b3
   type: SingleChoice
   content: |
@@ -121,25 +121,18 @@
     - value-types
   difficultyLevel: Low
   choices:
-    - content: "Yes"
+    - content: 'Yes'
       key: A
-    - content: "No"
+    - content: 'No'
       key: B
-    # - content: option 3
-    #   key: C
-    #   order: 2
-    # - content: option 4
-    #   key: D
-    #   order: 3
-
 - uuid: d11a531f-f32f-4764-a60a-2cc5af348245
   type: SingleChoice
-  content: |
-    Select the correct statements for the two String     types(“String” and “&str”).
+  content: >
+    Select the correct statements for the two String     types(“String” and
+    “&str”).
      "a. “Strings” are immutable in nature and cannot be modified. "
      "b. “&str” is a primitive data type, whereas “String” is implemented in the standard library."
      "c. To read a file into the strings, we use the read_to_string() method."
-
   hint: NoHint
   explanation: Strings are mutable in nature
   answerKeys:
@@ -156,7 +149,6 @@
       key: C
     - content: None of the above
       key: D
-
 - uuid: 9511276a-dd19-47c4-b086-0d1de8cafedb
   type: SingleChoice
   content: Which among the following is not an acceptable keyword in rust?
@@ -176,7 +168,6 @@
       key: C
     - content: mut
       key: D
-
 - uuid: 1ed70de2-99c6-43dd-8793-40ad702d6bff
   type: SingleChoice
   content: Which of the following brackets are used as placeholders in rust?
@@ -188,15 +179,14 @@
     - variables
   difficultyLevel: Low
   choices:
-    - content: "{}"
+    - content: '{}'
       key: A
-    - content: "[ ]"
+    - content: '[ ]'
       key: B
-    - content: "( )"
+    - content: ( )
       key: C
-    - content: "< >"
+    - content: < >
       key: D
-
 - uuid: 7f129510-4d19-4a62-bae1-34109714fa0e
   type: SingleChoice
   content: Constants in rust can be defined in which scope?
@@ -216,7 +206,6 @@
       key: C
     - content: All of the above
       key: D
-
 - uuid: b29fa10c-2efa-478c-8207-2e2a80af8700
   type: SingleChoice
   content: Which of the following are the scalar data types present in rust?
@@ -236,7 +225,6 @@
       key: C
     - content: integers, floating-point numbers, strings, booleans
       key: D
-
 - uuid: 775949c1-23b7-42bc-b184-bc755c8d2657
   type: SingleChoice
   content: The compound data types supported by rust are-
@@ -256,7 +244,6 @@
       key: C
     - content: Arrays, Maps
       key: D
-
 - uuid: 7fd341f0-4921-4e6e-aa0c-c3897f91d3b2
   type: SingleChoice
   content: |
@@ -283,12 +270,11 @@
       key: C
     - content: All a, b, & c
       key: D
-
 - uuid: 75d926cd-6f05-4185-916c-fc6c2b90eecd
   type: SingleChoice
   content: Which of the following has low memory usage, const or static?
   hint: How many of these can we update?
-  explanation: "Constant doesn't uses any extra heap memory to update"
+  explanation: Constant doesn't uses any extra heap memory to update
   answerKeys:
     - A
   subTopics:
@@ -303,7 +289,6 @@
       key: C
     - content: both have the same memory usage
       key: D
-
 - uuid: a7495120-1470-41d4-aeb2-6d9d7ebd876c
   type: SingleChoice
   content: To use dynamic-sized variables, which of the following should be used?
@@ -324,7 +309,6 @@
       key: C
     - content: Dynamic-Sized variables not supported in rust
       key: D
-
 - uuid: 4c564a7d-28d3-4fca-a06d-f3f3fc419d13
   type: SingleChoice
   content: What is the importance of the “type” keyword in rust?
@@ -344,7 +328,6 @@
       key: C
     - content: used to set an alias of another type
       key: D
-
 - uuid: d677a228-7f5d-4b5f-8bee-9f40052efafb
   type: SingleChoice
   content: What is the importance of Cargo in rust?
@@ -364,7 +347,6 @@
       key: C
     - content: Used to create and build UI projects in rust
       key: D
-
 - uuid: 2715ab2c-35b3-4e6a-9697-f244c6e23676
   type: SingleChoice
   content: How to print the data type of a variable in rust?
@@ -377,20 +359,21 @@
     - variables
   difficultyLevel: Low
   choices:
-    - content: " `std::any::type_name` "
+    - content: ' `std::any::type_name` '
       key: A
-    - content: " `variable.type_name()` "
+    - content: ' `variable.type_name()` '
       key: B
-    - content: " `std::intrisic::type_name` "
+    - content: ' `std::intrisic::type_name` '
       key: C
-    - content: " `std::variable::type_name` "
+    - content: ' `std::variable::type_name` '
       key: D
-
 - uuid: e326751d-bb65-44e4-a6ce-fa62faa96f94
   type: SingleChoice
   content: Which type cast preserves the mathematical value in all cases?
   hint: NoHint
-  explanation: Because they can handle both signed and unsigned values, and are typecasted in one data type only.
+  explanation: >-
+    Because they can handle both signed and unsigned values, and are typecasted
+    in one data type only.
   answerKeys:
     - A
   subTopics:
@@ -406,11 +389,10 @@
       key: C
     - content: f64 as f32
       key: D
-
 - uuid: ffac79fe-2367-42d1-82eb-b6e6127aead5
   type: SingleChoice
   content: Which of the following cannot be destructed further into smaller segments?
-  hint: "Think of the structures they're built upon "
+  hint: 'Think of the structures they''re built upon '
   explanation: No explanation
   answerKeys:
     - B
@@ -426,7 +408,6 @@
       key: C
     - content: Structs
       key: D
-
 - uuid: 1b0a3444-3b86-4e09-8021-f4b66cb2ce09
   type: SingleChoice
   content: Which comment syntax is not legal?
@@ -438,42 +419,37 @@
     - variables
   difficultyLevel: Low
   choices:
-    - content: "<//>"
+    - content: <//>
       key: A
-    - content: "/* */"
+    - content: /* */
       key: B
-    - content: "//!"
+    - content: //!
       key: C
-    - content: "//"
+    - content: //
       key: D
-
 - uuid: 2f9d0f0d-4670-44d7-b69f-d398ecfb3236
   type: SingleChoice
   content: Values of the array can be deleted.
   hint: NoHint
-  explanation: "Values can be updated, but can't be deleted"
+  explanation: Values can be updated, but can't be deleted
   answerKeys:
     - B
   subTopics:
     - value-types
   difficultyLevel: Low
   choices:
-    - content: "True"
+    - content: 'True'
       key: A
-    - content: "False"
+    - content: 'False'
       key: B
-    # - content: option 3
-    #   key: C
-    #   order: 2
-    # - content: option 4
-    #   key: D
-    #   order: 3
-
 - uuid: d2af3b88-9912-4729-9673-4101b7ec4765
   type: SingleChoice
   content: How do you initialize every element of an array of size 5 with 0?
-  hint: "Look at the declarations, don't get confused by the order while declaring"
-  explanation: The first argument is the integer you want to initialize an element with, and the second argument tells the end posistion till where you want to pre-initialize.
+  hint: Look at the declarations, don't get confused by the order while declaring
+  explanation: >-
+    The first argument is the integer you want to initialize an element with,
+    and the second argument tells the end posistion till where you want to
+    pre-initialize.
   answerKeys:
     - B
   subTopics:
@@ -481,15 +457,14 @@
     - variables
   difficultyLevel: Moderate
   choices:
-    - content: "`let mut arr : {i32;5} = {5;0};`"
+    - content: '`let mut arr : {i32;5} = {5;0};`'
       key: A
-    - content: "`let mut arr : {i32;5} = {0;5};`"
+    - content: '`let mut arr : {i32;5} = {0;5};`'
       key: B
-    - content: "`let mut arr : {5;i32} = {5;0};`"
+    - content: '`let mut arr : {5;i32} = {5;0};`'
       key: C
-    - content: "`let mut arr : {5;i32} = {0;5};`"
+    - content: '`let mut arr : {5;i32} = {0;5};`'
       key: D
-
 - uuid: 93c0673c-a86b-4bbb-82b0-3bb77bddab67
   type: SingleChoice
   content: Tuples in rust are
@@ -509,20 +484,11 @@
       key: C
     - content: infinite homogeneous compound data types
       key: D
-
 - uuid: 8c7f2429-0db2-4288-bd4a-ef694b39206c
   type: SingleChoice
-  content: |
-    What would be the output of the following code snippet?
-      ```
-        Fn main( ) {	
-          let mut dodao_io = (""Do"", 69, ""DAO"", 420);
-          println!(""{} "", dodao_io );
-          println!(""at 0 index = {} "", gfg.0 );
-        } 
-      ```
+  content: "What would be the output of the following code snippet?\n  ```\n    Fn main( ) {\t\n      let mut dodao_io = (\"\"Do\"\", 69, \"\"DAO\"\", 420);\n      println!(\"\"{} \"\", dodao_io );\n      println!(\"\"at 0 index = {} \"\", gfg.0 );\n    } \n  ```\n"
   hint: No Hint
-  explanation: "The first print statement should've had {;?}"
+  explanation: The first print statement should've had {;?}
   answerKeys:
     - C
   subTopics:
@@ -538,11 +504,9 @@
       key: C
     - content: ("Do", 69, "DAO", 420) & “Do”
       key: D
-
 - uuid: 2f6ce66c-3d34-4fa0-b6f6-188b7aa052b9
   type: SingleChoice
   content: What is the process of temporarily making a variable mutable known as?
-
   hint: NoHint
   explanation: No explantion
   answerKeys:
@@ -559,7 +523,6 @@
       key: C
     - content: Overshadowing
       key: D
-
 - uuid: d8a49f56-5da8-4b71-b18c-e745d5913dee
   type: SingleChoice
   content: Which of the following is an example of suffix annotation?
@@ -572,24 +535,25 @@
     - variables
   difficultyLevel: Low
   choices:
-    - content: "let a_int: i64 = 20;"
+    - content: 'let a_int: i64 = 20;'
       key: A
-    - content: "let a_int = i6420;"
+    - content: let a_int = i6420;
       key: B
-    - content: "let a_int = 20i64;"
+    - content: let a_int = 20i64;
       key: C
-    - content: "None of the above"
+    - content: None of the above
       key: D
-
 - uuid: 419058bf-87e9-4c18-9b8e-3f96c3c820b3
   type: SingleChoice
   content: |
     A. println!("1 + 2 = {}", 1u32 + 2);
     B. println!("1 - 2 = {}", 1u32 + 2);
-
   hint: Solution being Positive or Negative might make a difference
-  explanation: |
-    Here, when initialized, 1 is set as unsigned 32 integer u32. In statement A, it works because  1+2=3, and it's positive. But, 1-2=(-1) and as they were unsigned integers, so they cannot hold a negative value, so this statement doesn't compile
+  explanation: >
+    Here, when initialized, 1 is set as unsigned 32 integer u32. In statement A,
+    it works because  1+2=3, and it's positive. But, 1-2=(-1) and as they were
+    unsigned integers, so they cannot hold a negative value, so this statement
+    doesn't compile
   answerKeys:
     - A
   subTopics:
@@ -604,7 +568,6 @@
       key: C
     - content: None of them complies
       key: D
-
 - uuid: d97fc146-6c06-4a5c-a738-93a00cf7214e
   type: SingleChoice
   content: |
@@ -622,15 +585,15 @@
       key: A
     - content: Runtime Error
       key: B
-    - content: "3"
+    - content: '3'
       key: C
-    - content: "120"
+    - content: '120'
       key: D
-
 - uuid: 2448d741-4c38-46f3-b681-c3ffb44e54ac
   type: SingleChoice
-  content: String in standard library has more functionalities coded into it than string slice?
-
+  content: >-
+    String in standard library has more functionalities coded into it than
+    string slice?
   hint: NoHint
   explanation: No explanation
   answerKeys:
@@ -639,17 +602,10 @@
     - strings
   difficultyLevel: Moderate
   choices:
-    - content: "True"
+    - content: 'True'
       key: A
-    - content: "False"
+    - content: 'False'
       key: B
-    # - content: option 3
-    #   key: C
-    #   order: 2
-    # - content: option 4
-    #   key: D
-    #   order: 3
-
 - uuid: 923d11ba-5c1c-4d48-8101-87ee08e0fa0e
   type: SingleChoice
   content: |
@@ -684,7 +640,6 @@
       key: C
     - content: Error occurs
       key: D
-
 - uuid: ec5e9c9b-cafa-484e-8feb-51db5a0b7a33
   type: SingleChoice
   content: Which of the following operator is used by string slices to reference?
@@ -696,15 +651,14 @@
     - strings
   difficultyLevel: Low
   choices:
-    - content: "`&`"
+    - content: '`&`'
       key: A
-    - content: "`%`"
+    - content: '`%`'
       key: B
-    - content: "`#`"
+    - content: '`#`'
       key: C
-    - content: "`*`"
+    - content: '`*`'
       key: D
-
 - uuid: d0b24301-eda6-49d7-bf45-88777b13e15f
   type: SingleChoice
   content: Select the incorrect statement from the following
@@ -716,20 +670,28 @@
     - strings
   difficultyLevel: High
   choices:
-    - content: Once you get a string slice from a string, then you cannot really                 modify that String anymore
+    - content: >-
+        Once you get a string slice from a string, then you cannot
+        really                 modify that String anymore
       key: A
-    - content: Using slices to work with Strings allows us to add an extra                       security measure.
+    - content: >-
+        Using slices to work with Strings allows us to add an
+        extra                       security measure.
       key: B
-    - content: If you attempt to create a string slice in the middle of a                        multibyte character, your program will exit with an error
+    - content: >-
+        If you attempt to create a string slice in the middle of
+        a                        multibyte character, your program will exit
+        with an error
       key: C
     - content: String Slice mutably borrows the String itself
       key: D
-
 - uuid: ef79a0da-3da6-445e-92b5-1d0e17799db6
   type: SingleChoice
   content: What will happen at the runtime if overflow occurs?
   hint: NoHint
-  explanation: The memory stack is full and overflows, so a default panic occurs                 and the program crashes
+  explanation: >-
+    The memory stack is full and overflows, so a default panic
+    occurs                 and the program crashes
   answerKeys:
     - A
   subTopics:
@@ -745,10 +707,11 @@
       key: C
     - content: Overflow is handled already by rust, so it doesn’t occur
       key: D
-
 - uuid: 1b152ab5-6524-49e0-b5c0-8bd5153b1ab1
   type: SingleChoice
-  content: Character literals are specified using double quotes, as opposed to single quotes which stand for string literals.
+  content: >-
+    Character literals are specified using double quotes, as opposed to single
+    quotes which stand for string literals.
   hint: NoHint
   explanation: No explanation
   answerKeys:
@@ -758,17 +721,10 @@
     - value-types
   difficultyLevel: Low
   choices:
-    - content: "True"
+    - content: 'True'
       key: A
-    - content: "False"
+    - content: 'False'
       key: B
-    # - content: option 3
-    #   key: C
-    #   order: 2
-    # - content: option 4
-    #   key: D
-    #   order: 3
-
 - uuid: b49785fb-dd24-43b5-9f5a-e7dedc98cc5f
   type: SingleChoice
   content: Strings size is not known at compile time
@@ -780,17 +736,10 @@
     - strings
   difficultyLevel: Low
   choices:
-    - content: "True"
+    - content: 'True'
       key: A
-    - content: "False"
+    - content: 'False'
       key: B
-    # - content: option 3
-    #   key: C
-    #   order: 2
-    # - content: option 4
-    #   key: D
-    #   order: 3
-
 - uuid: 504040ac-6167-4304-8d6e-1e559975bac5
   type: SingleChoice
   content: |
@@ -818,11 +767,11 @@
       key: C
     - content: The code has errors because of no print and return statements
       key: D
-
 - uuid: b0ef2f16-b79d-433a-af54-dc218060ef13
   type: SingleChoice
-  content: If you want to store boolean values with the provision of adding more             values at runtime, the most suitable way would be to use
-
+  content: >-
+    If you want to store boolean values with the provision of adding
+    more             values at runtime, the most suitable way would be to use
   hint: Statically and Dynamic in nature
   explanation: Vector is a Dynamic nature
   answerKeys:
@@ -839,10 +788,11 @@
       key: C
     - content: bool type Variables
       key: D
-
 - uuid: c731455f-5296-4b1f-9aee-46a4f77c25c1
   type: SingleChoice
-  content: BOOLEAN is a type of data type that basically gives a tautology or                fallacy.
+  content: >-
+    BOOLEAN is a type of data type that basically gives a tautology
+    or                fallacy.
   hint: NoHint
   explanation: No explanation
   answerKeys:
@@ -851,17 +801,10 @@
     - value-types
   difficultyLevel: Low
   choices:
-    - content: "True"
+    - content: 'True'
       key: A
-    - content: "False"
+    - content: 'False'
       key: B
-    # - content: option 3
-    #   key: C
-    #   order: 2
-    # - content: option 4
-    #   key: D
-    #   order: 3
-
 - uuid: f8497eb4-2e55-4e70-98c9-b395f254f412
   type: SingleChoice
   content: What are the categories in which keywords are divided in rust?
@@ -881,7 +824,6 @@
       key: C
     - content: All of the above
       key: D
-
 - uuid: 836ae5f7-8e1d-41ad-a0b9-e0ce810cbf93
   type: SingleChoice
   content: Which of the following can be used as a variable name in rust?
@@ -902,7 +844,6 @@
       key: C
     - content: tuple
       key: D
-
 - uuid: 853bbf17-ceb6-4a7c-9a32-c05f048a9ce6
   type: SingleChoice
   content: Identify the wrong set of rust keywords
@@ -922,7 +863,6 @@
       key: C
     - content: become, box, do, incur
       key: D
-
 - uuid: 118287fb-f962-4c6a-b7bb-f774e36f02bf
   type: SingleChoice
   content: Rust variable names can start with
@@ -942,7 +882,6 @@
       key: C
     - content: All of the above
       key: D
-
 - uuid: 6ffbcd01-5b77-44bd-a9e1-56d3adb81a61
   type: SingleChoice
   content: |
@@ -963,25 +902,3 @@
       key: C
     - content: None of the above
       key: D
-
-- uuid: e8c7d69e-3899-43aa-aaec-e45870a32a3f
-  type: SingleChoice
-  content: In Rust, every value has its data type. The data type tells the compiler what kind of value it is and how to use it.
-  hint: noHint
-  explanation: No explanation
-  answerKeys:
-    - A
-  subTopics:
-    - typed_language
-  difficultyLevel: Low
-  choices:
-    - content: "True"
-      key: A
-    - content: "False"
-      key: B
-    # - content: option 3
-    #   key: C
-    #   order: 2
-    # - content: option 4
-    #   key: D
-    #   order: 3
