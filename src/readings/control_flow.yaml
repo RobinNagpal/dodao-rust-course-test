@@ -27,6 +27,19 @@
     * Rust Function with arguments
     * Rust Function with return
     * Rust Function return with expression (no semi-colon)
+- uuid: 140a5c04-73de-4b0e-ab1b-ba85c119b001
+  title: Introduction to Control flow
+  shortTitle: control flow
+  type: Article
+  url: https://doc.rust-lang.org/book/ch03-05-control-flow.html#control-flow
+  subTopics:
+    - control-flow
+  details: |
+    In this article we're looking how to write control flow in Rust language.
+    This article explains about the use of -
+    * if-else and nested else condition and using let statement
+    * while loop statement and passing conditions while the statement is true
+    * for loop and iteration
 - uuid: ca11e46b-bcbd-4dd7-bf44-965a64863fb2
   title: Intro to Rust-lang (Error Handling)
   shortTitle: error handing
@@ -50,16 +63,3 @@
     * Error handling using ? operations 
 
     * Error handling using Panic!
-- uuid: 140a5c04-73de-4b0e-ab1b-ba85c119b001
-  title: Introduction to Control flow
-  shortTitle: control flow
-  type: Article
-  url: https://doc.rust-lang.org/book/ch03-05-control-flow.html#control-flow
-  subTopics:
-    - control-flow
-  details: |
-    In this article we're looking how to write control flow in Rust language.
-    This article explains about the use of -
-    * if-else and nested else condition and using let statement
-    * while loop statement and passing conditions while the statement is true
-    * for loop and iteration

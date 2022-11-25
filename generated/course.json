@@ -4520,6 +4520,17 @@
           "details": "In this video we're looking how to write functions in Rust language.\nThis video talks about the use of -\n* Rust Simple function\n* Rust Function with arguments\n* Rust Function with return\n* Rust Function return with expression (no semi-colon)\n"
         },
         {
+          "uuid": "140a5c04-73de-4b0e-ab1b-ba85c119b001",
+          "title": "Introduction to Control flow",
+          "shortTitle": "control flow",
+          "type": "Article",
+          "url": "https://doc.rust-lang.org/book/ch03-05-control-flow.html#control-flow",
+          "subTopics": [
+            "control-flow"
+          ],
+          "details": "In this article we're looking how to write control flow in Rust language.\nThis article explains about the use of -\n* if-else and nested else condition and using let statement\n* while loop statement and passing conditions while the statement is true\n* for loop and iteration\n"
+        },
+        {
           "uuid": "ca11e46b-bcbd-4dd7-bf44-965a64863fb2",
           "title": "Intro to Rust-lang (Error Handling)",
           "shortTitle": "error handing",
@@ -4531,17 +4542,6 @@
             "options"
           ],
           "details": "In this video, we look at how we can use the Result and Option Enums to deal with Errors in Rust. \nWe also look at some of the basic methods that are commonly used in place of pattern match statements to check errors. \n* Error handling using Result options\n* Error handling using Enum options\n* Error handling using ? operations \n* Error handling using Panic!\n"
-        },
-        {
-          "uuid": "140a5c04-73de-4b0e-ab1b-ba85c119b001",
-          "title": "Introduction to Control flow",
-          "shortTitle": "control flow",
-          "type": "Article",
-          "url": "https://doc.rust-lang.org/book/ch03-05-control-flow.html#control-flow",
-          "subTopics": [
-            "control-flow"
-          ],
-          "details": "In this article we're looking how to write control flow in Rust language.\nThis article explains about the use of -\n* if-else and nested else condition and using let statement\n* while loop statement and passing conditions while the statement is true\n* for loop and iteration\n"
         }
       ],
       "summaries": [
