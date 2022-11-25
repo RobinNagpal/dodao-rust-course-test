@@ -1,3 +1,23 @@
+- title: Control Flow
+  shortTitle: Control flow
+  key: control-flow
+  details: >
+    - In most cases, the computer runs the code in order from the first line in
+    the file to the last line, unless it encounters structures that alter the
+    control flow, such as loops and conditionals.
+
+    - Many programming languages allow you to run some code depending on whether
+    a condition is true, or run some code repeatedly while a condition is true. 
+
+    - If expressions and loops are the most common constructs in Rust that
+    control execution flow.
+
+    - We control the flow of our program with the following statements, in
+    combination with relational comparison and logical operators.
+      * If else
+      * Match
+      * Loop
+      * For loop
 - title: If Expressions
   shortTitle: If-else statement
   key: if-else-let-statement
@@ -45,26 +65,6 @@
       ```
     - If we change the `number` to 17 we get a `condition was false` because it
     is not less than 5. It is a very straight forward statement.
-- title: Control Flow
-  shortTitle: Control flow
-  key: control-flow
-  details: >
-    - In most cases, the computer runs the code in order from the first line in
-    the file to the last line, unless it encounters structures that alter the
-    control flow, such as loops and conditionals.
-
-    - Many programming languages allow you to run some code depending on whether
-    a condition is true, or run some code repeatedly while a condition is true. 
-
-    - If expressions and loops are the most common constructs in Rust that
-    control execution flow.
-
-    - We control the flow of our program with the following statements, in
-    combination with relational comparison and logical operators.
-      * If else
-      * Match
-      * Loop
-      * For loop
 - title: Multiple if conditions - how to evaluate them?
   shortTitle: Nested if statement
   key: if-statement
