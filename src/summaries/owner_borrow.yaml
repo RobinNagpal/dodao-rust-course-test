@@ -1,8 +1,10 @@
 - title: Memory Allocation
   shortTitle: Memory Allocation
   key: memory-allocation
-  details: |
-    - Rust has a unique approach towards memory allocation. Data variables are either stored on stack or heap.
+  details: >
+    - Rust has a unique approach towards memory allocation. Data variables are
+    either stored on stack or heap.
+
     - Memory Management Approach
       * Different languages have different approach towards memory management.
       * In rust data with known, fixed size is stored on stack, data with an unknown size at compile time or size that can change is stored on heap.
@@ -14,12 +16,13 @@
       * Heap is less organized, when adding a variable on the heap the memory allocator finds an empty spot in the heap that is big enough, marks it as being in use, and returns a pointer, which is the address of that location.
       * Keeping track of what parts of code are using what data on the heap, minimizing the amount of duplicate data on the heap, and cleaning up unused data on the heap so you don’t run out of space are all problems that ownership addresses.
       ![Heap](https://github.com/DoDAO-io/dodao-rust-course/blob/2419453a452b44111d5fa63d76663c831ea83901/images/img_heap.jpg?raw=true)
-
 - title: Variable Scope
   shortTitle: Variable Scope
   key: variable-scope
-  details: |
-    - In Rust a variable is valid only in its scope, as soon as it goes out of scope its memory is freed.
+  details: >
+    - In Rust a variable is valid only in its scope, as soon as it goes out of
+    scope its memory is freed.
+
     - Scope:
       * As the variable goes out of scope it is no longer valid, at this point Rust automatically returns the memory used by the variable.
       * Rust’s approach to memory management is unique by scoping is simple and robust.
@@ -32,7 +35,6 @@
             // str goes out of scope
           }
         ```
-
 - title: Ownership
   shortTitle: Ownership
   key: ownership
@@ -85,7 +87,6 @@
               some_string;
           } // some_string moves back to calling function
         ```
-
 - title: Borrowing
   shortTitle: Borrowing
   key: borrowing
@@ -127,3 +128,19 @@
         * This restriction enables rust to prevent data race at compile time.
       - Dangling Reference
         * The Rust compiler ensures that dangling references can never exist. Compiler will guarantee that the data will not go out of scope before the reference to the data.
+- key: new-summary-for-ownership
+  shortTitle: New summary for
+  details: >-
+    New summary for Ownership. New summary for Ownership New summary for
+    Ownership
+
+
+
+    New summary for Ownership
+
+
+    New summary for Ownership
+
+
+    New summary for Ownership 
+  title: New summary for Ownership
