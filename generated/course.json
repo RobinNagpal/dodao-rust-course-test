@@ -4496,18 +4496,6 @@
       ],
       "readings": [
         {
-          "uuid": "44b73ef1-b860-4ecd-b1b7-c2620817c31e",
-          "title": "Control Flow - Rust",
-          "shortTitle": "Intro control flow",
-          "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=EVruNiwIfzI",
-          "subTopics": [
-            "if-statement",
-            "loop"
-          ],
-          "details": "In this video we're looking how to write control flow in Rust language.\nThis video explains about the use of -\n* if-else and nested else condition and using if in a let Statement\n* while loop statement and passing conditions while the statement is true\n* for loop and iteration\n"
-        },
-        {
           "uuid": "49b6d99f-9965-42aa-8115-edf28c7735bb",
           "title": "Rust Lang Tutorial 2021 - Functions",
           "shortTitle": "functions/procedures",
@@ -4518,6 +4506,18 @@
             "arguments"
           ],
           "details": "In this video we're looking how to write functions in Rust language.\nThis video talks about the use of -\n* Rust Simple function\n* Rust Function with arguments\n* Rust Function with return\n* Rust Function return with expression (no semi-colon)\n"
+        },
+        {
+          "uuid": "44b73ef1-b860-4ecd-b1b7-c2620817c31e",
+          "title": "Control Flow - Rust",
+          "shortTitle": "Intro control flow",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=EVruNiwIfzI",
+          "subTopics": [
+            "if-statement",
+            "loop"
+          ],
+          "details": "In this video we're looking how to write control flow in Rust language.\nThis video explains about the use of -\n* if-else and nested else condition and using if in a let Statement\n* while loop statement and passing conditions while the statement is true\n* for loop and iteration\n"
         },
         {
           "uuid": "ca11e46b-bcbd-4dd7-bf44-965a64863fb2",
