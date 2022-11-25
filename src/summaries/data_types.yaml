@@ -1,7 +1,7 @@
 - key: typed_language
   title: Typed language
   shortTitle: Typed language
-  details: |
+  details: |-
     - Dynamically-Typed Languages
       * Dynamically-typed languages are the languages where the interpreter assigns variables a data type at runtime based on the variable's value at that time.
       * Dynamic languages are usually interpreted (with some pre-processing for optimisation) so it is fast to make changes and then immediately run the updated program.
@@ -14,7 +14,6 @@
       * The compiler can use the type system to provide language features that are more expressive and succinct.
       * Some examples of Statically-Typed Languages are:- C++, Rust, C, Java, etc.
     - Rust is a Statically-Typed Language
-    - a new ppoint
 - title: Value Types
   shortTitle: Value Types
   key: value-types
