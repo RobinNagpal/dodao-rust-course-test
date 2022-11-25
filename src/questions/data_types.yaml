@@ -3,7 +3,7 @@
   content: |
     What is the output of the following code snippet:
      
-        ``` 
+        ```javascript
             fn main() {
               let x = 12;
               println!("The value of x is: {x}");
@@ -17,18 +17,17 @@
     can't be changed.
   answerKeys:
     - D
-  subTopics:
-    - variables
-  difficultyLevel: Low
+  subTopics: []
+  difficultyLevel: Medium
   choices:
-    - content: 'The value of x is: 8'
-      key: A
-    - content: 'Error: the variable x is mutable'
-      key: B
-    - content: 'The value of x is: 12'
-      key: C
-    - content: 'Error: the variable x is immutable'
-      key: D
+    - key: A
+      content: 'The value of x is: 8'
+    - key: B
+      content: 'Error: the variable x is mutable'
+    - key: C
+      content: 'The value of x is: 12'
+    - key: D
+      content: 'Error: the variable x is immutable'
 - uuid: 23a0e9e5-6c47-4512-98a5-4cd3ab6eff25
   type: SingleChoice
   content: Space taken by a Character data type in rust is
