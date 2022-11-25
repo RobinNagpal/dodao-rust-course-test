@@ -8040,7 +8040,7 @@
         {
           "uuid": "b49785fb-dd24-43b5-9f5a-e7dedc98cc5f",
           "type": "SingleChoice",
-          "content": "Strings size is not known at compile time",
+          "content": "asddddd",
           "hint": "noHint",
           "explanation": "explanation",
           "answerKeys": [
@@ -8056,6 +8056,14 @@
             {
               "content": "False",
               "key": "B"
+            },
+            {
+              "content": "New option",
+              "key": "c97da07e"
+            },
+            {
+              "content": "dddd",
+              "key": "0af365f4"
             }
           ]
         },
