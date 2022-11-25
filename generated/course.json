@@ -6575,12 +6575,6 @@
           "shortTitle": "Borrowing",
           "key": "borrowing",
           "details": "- The action of creating a reference to a variable is called borrowing.\n- What is Borrowing:\n  * Moving a variable on the heap is not always convenient.\n  * Consider a situation like passing a variable on heap to a function call, to be able to use a variable after the function call we need to return it from the function. In such situations we can provide a reference to the variable.\n  * Creating a reference to a variable is called borrowing, references can use variables but not own them.\n- Reference\n  * A reference stores the address of the data and we can follow the reference to access data stored at that address, that data is owned by a different variable.\n  * A reference is always guaranteed to point to a valid value for the life of the referenced value.\n  * The value pointed by the reference is not dropped as the reference goes out of scope as it does not have the ownership.\n  * Ampersands are used to represent references.\n    ```\n      fn main() {\n        let s = String::from(“Hello”);\n        calculate_length(&s); // Function takes reference to s\n      }\n\n      fn calculate_length(string_reference: &String) {\n          string_reference.len();\n      }\n    ```\n    ![Reference](https://github.com/DoDAO-io/dodao-rust-course/blob/2419453a452b44111d5fa63d76663c831ea83901/images/img_reference.jpg?raw=true)\n  - Mutable Reference\n    * References can be easily made mutable:\n      ```\n        fn main() {\n          let mut s = String::from(“Hello”);\n          calculate_length(&mut s); // Function takes reference to s\n        }\n\n        fn calculate_length(string_reference: &mut String) {\n            string_reference.push_str(“, world !”);\n        }\n      ```\n    * At any given time there can be one mutable reference or multiple immutable reference to the variable.\n    * This restriction enables rust to prevent data race at compile time.\n  - Dangling Reference\n    * The Rust compiler ensures that dangling references can never exist. Compiler will guarantee that the data will not go out of scope before the reference to the data.\n"
-        },
-        {
-          "key": "new-summary-for-ownership",
-          "shortTitle": "New summary for",
-          "details": "New summary for Ownership. New summary for Ownership New summary for Ownership\n\n\nNew summary for Ownership\n\nNew summary for Ownership\n\nNew summary for Ownership ",
-          "title": "New summary for Ownership"
         }
       ]
     },

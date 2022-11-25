@@ -128,19 +128,3 @@
         * This restriction enables rust to prevent data race at compile time.
       - Dangling Reference
         * The Rust compiler ensures that dangling references can never exist. Compiler will guarantee that the data will not go out of scope before the reference to the data.
-- key: new-summary-for-ownership
-  shortTitle: New summary for
-  details: >-
-    New summary for Ownership. New summary for Ownership New summary for
-    Ownership
-
-
-
-    New summary for Ownership
-
-
-    New summary for Ownership
-
-
-    New summary for Ownership 
-  title: New summary for Ownership
