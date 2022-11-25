@@ -1,3 +1,24 @@
+- uuid: 23a0e9e5-6c47-4512-98a5-4cd3ab6eff25
+  type: SingleChoice
+  content: Space taken by a Character data type in rust is
+  hint: It doesn't use ASCII values
+  explanation: >-
+    Rust's char type is four bytes in size and represents a Unicode Scalar
+    Value, which means it can represent a lot more than just ASCII.
+  answerKeys:
+    - B
+  subTopics:
+    - value-types
+  difficultyLevel: Low
+  choices:
+    - content: 1 byte
+      key: A
+    - content: 4 bytes
+      key: B
+    - content: 8 bytes
+      key: C
+    - content: 16 bytes
+      key: D
 - uuid: ab88a2ab-c80b-49f5-9ea0-b5ed8e4933b1
   type: SingleChoice
   content: |
@@ -30,27 +51,6 @@
       content: 'The value of x is: 12'
     - key: D
       content: 'Error: the variable x is immutable'
-- uuid: 23a0e9e5-6c47-4512-98a5-4cd3ab6eff25
-  type: SingleChoice
-  content: Space taken by a Character data type in rust is
-  hint: It doesn't use ASCII values
-  explanation: >-
-    Rust's char type is four bytes in size and represents a Unicode Scalar
-    Value, which means it can represent a lot more than just ASCII.
-  answerKeys:
-    - B
-  subTopics:
-    - value-types
-  difficultyLevel: Low
-  choices:
-    - content: 1 byte
-      key: A
-    - content: 4 bytes
-      key: B
-    - content: 8 bytes
-      key: C
-    - content: 16 bytes
-      key: D
 - uuid: 39385b22-7604-492f-9c2e-aaae409c6b79
   type: SingleChoice
   content: Rust is a Dynamically typed language.

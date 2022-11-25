@@ -20,38 +20,6 @@
       "order": 0,
       "questions": [
         {
-          "uuid": "ab88a2ab-c80b-49f5-9ea0-b5ed8e4933b1",
-          "type": "SingleChoice",
-          "content": "What is the output of the following code snippet:\n \n    ``` \n        fn main() {\n          let x = 12;\n          println!(\"The value of x is: {x}\");\n          x = 8;\n          println!(\"The value of x is: {x}\");\n        } \n    ```\n",
-          "hint": "NoHint",
-          "explanation": "Error would occur, because the variable x isn't set as mutable so it's value can't be changed.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "variables"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "The value of x is: 8",
-              "key": "A"
-            },
-            {
-              "content": "Error: the variable x is mutable",
-              "key": "B"
-            },
-            {
-              "content": "The value of x is: 12",
-              "key": "C"
-            },
-            {
-              "content": "Error: the variable x is immutable",
-              "key": "D"
-            }
-          ]
-        },
-        {
           "uuid": "23a0e9e5-6c47-4512-98a5-4cd3ab6eff25",
           "type": "SingleChoice",
           "content": "Space taken by a Character data type in rust is",
@@ -79,6 +47,38 @@
             },
             {
               "content": "16 bytes",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "ab88a2ab-c80b-49f5-9ea0-b5ed8e4933b1",
+          "type": "SingleChoice",
+          "content": "What is the output of the following code snippet:\n \n    ``` \n        fn main() {\n          let x = 12;\n          println!(\"The value of x is: {x}\");\n          x = 8;\n          println!(\"The value of x is: {x}\");\n        } \n    ```\n",
+          "hint": "NoHint",
+          "explanation": "Error would occur, because the variable x isn't set as mutable so it's value can't be changed.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "variables"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "The value of x is: 8",
+              "key": "A"
+            },
+            {
+              "content": "Error: the variable x is mutable",
+              "key": "B"
+            },
+            {
+              "content": "The value of x is: 12",
+              "key": "C"
+            },
+            {
+              "content": "Error: the variable x is immutable",
               "key": "D"
             }
           ]
@@ -1473,38 +1473,6 @@
       "order": 1,
       "questions": [
         {
-          "uuid": "ab88a2ab-c80b-49f5-9ea0-b5ed8e4933b1",
-          "type": "SingleChoice",
-          "content": "What is the output of the following code snippet:\n \n    ``` \n        fn main() {\n          let x = 12;\n          println!(\"The value of x is: {x}\");\n          x = 8;\n          println!(\"The value of x is: {x}\");\n        } \n    ```\n",
-          "hint": "NoHint",
-          "explanation": "Error would occur, because the variable x isn't set as mutable so it's value can't be changed.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "variables"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "The value of x is: 8",
-              "key": "A"
-            },
-            {
-              "content": "Error: the variable x is mutable",
-              "key": "B"
-            },
-            {
-              "content": "The value of x is: 12",
-              "key": "C"
-            },
-            {
-              "content": "Error: the variable x is immutable",
-              "key": "D"
-            }
-          ]
-        },
-        {
           "uuid": "23a0e9e5-6c47-4512-98a5-4cd3ab6eff25",
           "type": "SingleChoice",
           "content": "Space taken by a Character data type in rust is",
@@ -1532,6 +1500,38 @@
             },
             {
               "content": "16 bytes",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "ab88a2ab-c80b-49f5-9ea0-b5ed8e4933b1",
+          "type": "SingleChoice",
+          "content": "What is the output of the following code snippet:\n \n    ``` \n        fn main() {\n          let x = 12;\n          println!(\"The value of x is: {x}\");\n          x = 8;\n          println!(\"The value of x is: {x}\");\n        } \n    ```\n",
+          "hint": "NoHint",
+          "explanation": "Error would occur, because the variable x isn't set as mutable so it's value can't be changed.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "variables"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "The value of x is: 8",
+              "key": "A"
+            },
+            {
+              "content": "Error: the variable x is mutable",
+              "key": "B"
+            },
+            {
+              "content": "The value of x is: 12",
+              "key": "C"
+            },
+            {
+              "content": "Error: the variable x is immutable",
               "key": "D"
             }
           ]
