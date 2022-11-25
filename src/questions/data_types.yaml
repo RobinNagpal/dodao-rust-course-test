@@ -729,8 +729,8 @@
 - uuid: b49785fb-dd24-43b5-9f5a-e7dedc98cc5f
   type: SingleChoice
   content: asddddd
-  hint: noHint
-  explanation: explanation
+  hint: NoHint
+  explanation: 'explanation. explanation. explanationexplanation '
   answerKeys:
     - B
   subTopics: []
