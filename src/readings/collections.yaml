@@ -14,12 +14,13 @@
     * VecDeque<T>
     * LinkedList<T>
 - uuid: 9d8a8dbd-3dd4-44aa-8d79-8e10dddb23fe
-  title: Rust - Collections Demo
   shortTitle: Collections Demo
-  type: YoutubeVideo
-  url: https://www.youtube.com/watch?v=yAw3cpqIXtg
-  subTopics:
-    - collection_vector
-    - collection_hashmap
-  details: |
+  details: |-
     Demo of code written using Collection Data Structures in Rust
+
+
+    sss
+  title: Rust - Collections Demo
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=yAh-full w-fullw3cpqIXtg
+  subTopics: []

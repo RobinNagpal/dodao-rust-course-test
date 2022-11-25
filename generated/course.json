@@ -6908,15 +6908,12 @@
         },
         {
           "uuid": "9d8a8dbd-3dd4-44aa-8d79-8e10dddb23fe",
-          "title": "Rust - Collections Demo",
           "shortTitle": "Collections Demo",
+          "details": "Demo of code written using Collection Data Structures in Rust\n\n\nsss",
+          "title": "Rust - Collections Demo",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=yAw3cpqIXtg",
-          "subTopics": [
-            "collection_vector",
-            "collection_hashmap"
-          ],
-          "details": "Demo of code written using Collection Data Structures in Rust\n"
+          "url": "https://www.youtube.com/watch?v=yAh-full w-fullw3cpqIXtg",
+          "subTopics": []
         }
       ],
       "summaries": [
