@@ -3,14 +3,16 @@
   content: |
     What is the output of the following code snippet:
      
-        ```javascript
+    ```javascript
+
             fn main() {
               let x = 12;
               println!("The value of x is: {x}");
               x = 8;
               println!("The value of x is: {x}");;
             } 
-        ```
+
+    ```
   hint: NoHint
   explanation: >-
     Error would occur, because the variable x isn't set as mutable so it's value
