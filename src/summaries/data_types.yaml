@@ -1,6 +1,6 @@
-- title: Typed language
+- key: typed_language
+  title: Typed language
   shortTitle: Typed language
-  key: typed_language
   details: |
     - Dynamically-Typed Languages
       * Dynamically-typed languages are the languages where the interpreter assigns variables a data type at runtime based on the variable's value at that time.
@@ -14,6 +14,7 @@
       * The compiler can use the type system to provide language features that are more expressive and succinct.
       * Some examples of Statically-Typed Languages are:- C++, Rust, C, Java, etc.
     - Rust is a Statically-Typed Language
+    - a new ppoint
 - title: Value Types
   shortTitle: Value Types
   key: value-types
@@ -130,8 +131,10 @@
 - title: Keywords
   shortTitle: Keywords
   key: keywords
-  details: |
-    - Keywords are predefined, reserved words used in programming that have special meanings to the compiler. Rust divides keywords into three categories:
+  details: >
+    - Keywords are predefined, reserved words used in programming that have
+    special meanings to the compiler. Rust divides keywords into three
+    categories:
         1. Strict
         2. Reserved 
         3. Weak
@@ -147,9 +150,12 @@
 - title: Bit Manipulation
   shortTitle: Bit Manipulation
   key: bit-manupilation
-  details: |
-    - Bit manipulation is the process of applying logical operations on a sequence of bits to achieve a required result.
-    - Bit Mnipulation is strictly done by rust compilers for storing data in variables, for two's compliment and many other purposes.
+  details: >
+    - Bit manipulation is the process of applying logical operations on a
+    sequence of bits to achieve a required result.
+
+    - Bit Mnipulation is strictly done by rust compilers for storing data in
+    variables, for two's compliment and many other purposes.
 - title: Strings
   shortTitle: Strings
   key: strings
@@ -174,6 +180,9 @@
 - title: Package Manager
   shortTitle: Package Manager
   key: package-manager
-  details: |
-    - A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.
+  details: >
+    - A package manager or package-management system is a collection of software
+    tools that automates the process of installing, upgrading, configuring, and
+    removing computer programs for a computer in a consistent manner.
+
     - Cargo is the Rust package manager.

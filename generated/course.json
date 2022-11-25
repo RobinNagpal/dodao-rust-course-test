@@ -1424,9 +1424,9 @@
       "summaries": [
         {
           "title": "Typed language",
-          "shortTitle": "Typed language",
           "key": "typed_language",
-          "details": "- Dynamically-Typed Languages\n  * Dynamically-typed languages are the languages where the interpreter assigns variables a data type at runtime based on the variable's value at that time.\n  * Dynamic languages are usually interpreted (with some pre-processing for optimisation) so it is fast to make changes and then immediately run the updated program.\n  * Dynamically-Typed languages allows for Fast Development Cycles and Fast Start-up times.\n  * Some Examples of Dynamically Typed Languages are:- JavaScript, Python, Perl, Ruby, etc.\n- Statically-Typed Languages\n  * Statically-typed languages are the languages where variable types are known at compile time i.e. the type checking is done at compile time.\n  * Many runtime errors become compile time errors as the compiler ensures that you are writing 'correct' code. This leads to a much smoother development experience.\n  * The execution of the code will be faster compared to the dynamically-typed languages.\n  * The compiler can use the type system to provide language features that are more expressive and succinct.\n  * Some examples of Statically-Typed Languages are:- C++, Rust, C, Java, etc.\n- Rust is a Statically-Typed Language\n"
+          "shortTitle": "Typed language",
+          "details": "- Dynamically-Typed Languages\n  * Dynamically-typed languages are the languages where the interpreter assigns variables a data type at runtime based on the variable's value at that time.\n  * Dynamic languages are usually interpreted (with some pre-processing for optimisation) so it is fast to make changes and then immediately run the updated program.\n  * Dynamically-Typed languages allows for Fast Development Cycles and Fast Start-up times.\n  * Some Examples of Dynamically Typed Languages are:- JavaScript, Python, Perl, Ruby, etc.\n- Statically-Typed Languages\n  * Statically-typed languages are the languages where variable types are known at compile time i.e. the type checking is done at compile time.\n  * Many runtime errors become compile time errors as the compiler ensures that you are writing 'correct' code. This leads to a much smoother development experience.\n  * The execution of the code will be faster compared to the dynamically-typed languages.\n  * The compiler can use the type system to provide language features that are more expressive and succinct.\n  * Some examples of Statically-Typed Languages are:- C++, Rust, C, Java, etc.\n- Rust is a Statically-Typed Language\n- a new ppoint\n"
         },
         {
           "title": "Value Types",
@@ -2877,9 +2877,9 @@
       "summaries": [
         {
           "title": "Typed language",
-          "shortTitle": "Typed language",
           "key": "typed_language",
-          "details": "- Dynamically-Typed Languages\n  * Dynamically-typed languages are the languages where the interpreter assigns variables a data type at runtime based on the variable's value at that time.\n  * Dynamic languages are usually interpreted (with some pre-processing for optimisation) so it is fast to make changes and then immediately run the updated program.\n  * Dynamically-Typed languages allows for Fast Development Cycles and Fast Start-up times.\n  * Some Examples of Dynamically Typed Languages are:- JavaScript, Python, Perl, Ruby, etc.\n- Statically-Typed Languages\n  * Statically-typed languages are the languages where variable types are known at compile time i.e. the type checking is done at compile time.\n  * Many runtime errors become compile time errors as the compiler ensures that you are writing 'correct' code. This leads to a much smoother development experience.\n  * The execution of the code will be faster compared to the dynamically-typed languages.\n  * The compiler can use the type system to provide language features that are more expressive and succinct.\n  * Some examples of Statically-Typed Languages are:- C++, Rust, C, Java, etc.\n- Rust is a Statically-Typed Language\n"
+          "shortTitle": "Typed language",
+          "details": "- Dynamically-Typed Languages\n  * Dynamically-typed languages are the languages where the interpreter assigns variables a data type at runtime based on the variable's value at that time.\n  * Dynamic languages are usually interpreted (with some pre-processing for optimisation) so it is fast to make changes and then immediately run the updated program.\n  * Dynamically-Typed languages allows for Fast Development Cycles and Fast Start-up times.\n  * Some Examples of Dynamically Typed Languages are:- JavaScript, Python, Perl, Ruby, etc.\n- Statically-Typed Languages\n  * Statically-typed languages are the languages where variable types are known at compile time i.e. the type checking is done at compile time.\n  * Many runtime errors become compile time errors as the compiler ensures that you are writing 'correct' code. This leads to a much smoother development experience.\n  * The execution of the code will be faster compared to the dynamically-typed languages.\n  * The compiler can use the type system to provide language features that are more expressive and succinct.\n  * Some examples of Statically-Typed Languages are:- C++, Rust, C, Java, etc.\n- Rust is a Statically-Typed Language\n- a new ppoint\n"
         },
         {
           "title": "Value Types",
@@ -8399,5 +8399,6 @@
         }
       ]
     }
-  ]
+  ],
+  "uuid": "rust-course"
 }
