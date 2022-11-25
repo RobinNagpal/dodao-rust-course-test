@@ -4546,16 +4546,16 @@
       ],
       "summaries": [
         {
-          "title": "Control Flow",
-          "shortTitle": "Control flow",
-          "key": "control-flow",
-          "details": "- In most cases, the computer runs the code in order from the first line in the file to the last line, unless it encounters structures that alter the control flow, such as loops and conditionals.\n- Many programming languages allow you to run some code depending on whether a condition is true, or run some code repeatedly while a condition is true. \n- If expressions and loops are the most common constructs in Rust that control execution flow.\n- We control the flow of our program with the following statements, in combination with relational comparison and logical operators.\n  * If else\n  * Match\n  * Loop\n  * For loop\n"
-        },
-        {
           "title": "If Expressions",
           "shortTitle": "If-else statement",
           "key": "if-else-let-statement",
           "details": "- To explore the if expression with combination with else we can choose to add one more condition with the else statement\n- We use if statement to give conditions to our code. You can branch your code based on conditions using an if expression. A condition is given and then a block of code is run if the condition is met. \n- In the event that the condition is not met, the compiler says to the machine “do not run this block.\"\n```rust\n  fn main() {\n    let number = 3;\n    if number < 5 {\n      println!(\"condition was true\");\n    } else {\n      println!(\"condition was false\");\n    }\n  }\n```\n- The keyword if follows a condition in all if expressions. \n- Here, the condition checks whether the variable number is less than 5.\n- Within curly brackets, we place the code to execute if the condition is true immediately after it.\n- Our program also includes an else expression, which we chose to use here, to provide an alternative block of code in case the condition is false.\n- Unless you provide an else expression, if the condition is false, the program will skip the if block and move on.\n  The following output should be seen after running this code:\n  ```rust\n    $ cargo run\n     Compiling branches v0.1.0 (file:///projects/branches)\n     Finished dev [unoptimized + debuginfo] target(s) in 0.31s\n      Running `target/debug/branches`\n    condition was true\n  ```\n- If we change the `number` to 17 we get a `condition was false` because it is not less than 5. It is a very straight forward statement.\n"
+        },
+        {
+          "title": "Control Flow",
+          "shortTitle": "Control flow",
+          "key": "control-flow",
+          "details": "- In most cases, the computer runs the code in order from the first line in the file to the last line, unless it encounters structures that alter the control flow, such as loops and conditionals.\n- Many programming languages allow you to run some code depending on whether a condition is true, or run some code repeatedly while a condition is true. \n- If expressions and loops are the most common constructs in Rust that control execution flow.\n- We control the flow of our program with the following statements, in combination with relational comparison and logical operators.\n  * If else\n  * Match\n  * Loop\n  * For loop\n"
         },
         {
           "title": "Multiple if conditions - how to evaluate them?",
