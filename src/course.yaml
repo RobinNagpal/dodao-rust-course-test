@@ -169,19 +169,6 @@ topics:
     questions: owner_borrow.yaml
     status: In Progress
     completionWeek: July 18
-  - title: Collections
-    key: collections
-    details: >
-      This chapter talks about various popular pre-written Data Structures that
-      are available in rust.
-       - Vec<T>
-       - String
-       - HashMap<K, V>
-    readings: collections.yaml
-    summaries: collections.yaml
-    questions: collections.yaml
-    status: In Progress
-    completionWeek: July 18
   - title: Pointers and Iterators
     key: point-iter
     details: |
@@ -198,5 +185,18 @@ topics:
     readings: data_types.yaml
     summaries: data_types.yaml
     questions: data_types.yaml
+    status: In Progress
+    completionWeek: July 18
+  - title: Collections
+    key: collections
+    details: >
+      This chapter talks about various popular pre-written Data Structures that
+      are available in rust.
+       - Vec<T>
+       - String
+       - HashMap<K, V>
+    readings: collections.yaml
+    summaries: collections.yaml
+    questions: collections.yaml
     status: In Progress
     completionWeek: July 18
