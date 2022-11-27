@@ -6,10 +6,15 @@ summary: >
 
   In this course you will learn how to write smart contracts and all the
   features of Rust language.
+
+
+  More
 details: |
   "Line1" 
   "Line2" 
   "Line3"
+
+  "Line4"
 duration: 4 - 6 hours
 highlights:
   - Rust smart contracts
