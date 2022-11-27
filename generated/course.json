@@ -6581,371 +6581,6 @@
       ]
     },
     {
-      "title": "Collections",
-      "key": "collections",
-      "details": "This chapter talks about various popular pre-written Data Structures that are available in rust.\n - Vec<T>\n - String\n - HashMap<K, V>\n",
-      "order": 5,
-      "questions": [
-        {
-          "uuid": "1469d4ec-d02a-4a3c-83a6-cbe9f2fb7fe7",
-          "type": "SingleChoice",
-          "content": "Where in the mempry are colections stored\n",
-          "hint": "NoHint",
-          "explanation": "Collections are dynamically sized ans tored on heap.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "collection_introduction"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Stack",
-              "key": "A"
-            },
-            {
-              "content": "Program Area",
-              "key": "B"
-            },
-            {
-              "content": "Heap",
-              "key": "C"
-            }
-          ]
-        },
-        {
-          "uuid": "671ebf9a-bafe-4b27-a98f-acd14f0b1dc1",
-          "type": "SingleChoice",
-          "content": "What is the output of the following code snippet:\n \n    ``` \n        let v = Vec![1,2,3,4,5];\n        let third = &v[10];\n\n        println!(“The third element is {}”, third);\n    ```\n",
-          "hint": "NoHint",
-          "explanation": "Trying to index vector outside it boundries result in panic.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "collection_vector"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "It prints None",
-              "key": "A"
-            },
-            {
-              "content": "It does not print anything",
-              "key": "B"
-            },
-            {
-              "content": "It prints 5",
-              "key": "C"
-            },
-            {
-              "content": "It will resume in panic",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "87b313aa-61ae-4f6f-b251-95028a5eea9d",
-          "type": "SingleChoice",
-          "content": "What is the output of the following code snippet:\n \n    ``` \n        let v = Vec![1,2,3,4,5];\n        let third = v.get(2);\n\n        println!(“The third element is {}”, third);\n    ```\n",
-          "hint": "NoHint",
-          "explanation": "Trying to index vector outside it boundries result in panic.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "collection_vector"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "It prints None",
-              "key": "A"
-            },
-            {
-              "content": "It does not print anything",
-              "key": "B"
-            },
-            {
-              "content": "It prints 5",
-              "key": "C"
-            },
-            {
-              "content": "It will resume in panic",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "776ca2cf-bfe1-4fbf-83a2-65432535d6e9",
-          "type": "SingleChoice",
-          "content": "Strings in Rust support which encoding:\n",
-          "hint": "NoHint",
-          "explanation": "Strings in Rust support UTF-8 encoding.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "collection_strings"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "UTF-8",
-              "key": "A"
-            },
-            {
-              "content": "Unicode",
-              "key": "B"
-            },
-            {
-              "content": "ASCII",
-              "key": "C"
-            },
-            {
-              "content": "UTF-32",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "a57b1b01-84cb-4a59-8eb7-d22440e8b6d5",
-          "type": "SingleChoice",
-          "content": "What is the output of the following code snippet:\n \n    ``` \n        let s1 = “Hello, “;\n        let s2 = “world!“;\n        let s3 = s1 + &s2;\n\n        println!(s1 is {}”, s1);\n    ```\n",
-          "hint": "NoHint",
-          "explanation": "When using + macro first argument is moved and not accessible after that.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "collection_strings"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Program will not compile",
-              "key": "A"
-            },
-            {
-              "content": "It prints Hello, ",
-              "key": "B"
-            },
-            {
-              "content": "It prints Hello, world!",
-              "key": "C"
-            },
-            {
-              "content": "It prints None",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "08f69431-88dd-4e54-91ea-6e462181a4b3",
-          "type": "SingleChoice",
-          "content": "How can strings be indexed in Rust ?\n",
-          "hint": "NoHint",
-          "explanation": "String indexing is not allowed in Rust.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "collection_strings"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "`str[1]`",
-              "key": "A"
-            },
-            {
-              "content": "String indexing does not works in Rust",
-              "key": "B"
-            },
-            {
-              "content": "`str.1`",
-              "key": "C"
-            },
-            {
-              "content": "`str.get(1)`",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "96c4703a-812b-4428-b211-945ef8bdc46f",
-          "type": "SingleChoice",
-          "content": "Which hashmap method can be used to add an entry to map only if it does not already exists ?\n",
-          "hint": "NoHint",
-          "explanation": "`or_insert` will insert an entry into HashMap only if it does not already exist.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "collection_hashmap"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "`insert`",
-              "key": "A"
-            },
-            {
-              "content": "`push`",
-              "key": "B"
-            },
-            {
-              "content": "`or_insert`",
-              "key": "C"
-            },
-            {
-              "content": "`insert_or`",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "d74074f8-3849-4c74-aa6b-3cbddb0ad97d",
-          "type": "MultipleChoice",
-          "content": "Which of the following are methods available on Vectors ?\n",
-          "hint": "NoHint",
-          "explanation": "Methods `len` and `push` are available on Vectors.",
-          "answerKeys": [
-            "A, D"
-          ],
-          "subTopics": [
-            "collection_vector"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "`len`",
-              "key": "A"
-            },
-            {
-              "content": "`length`",
-              "key": "B"
-            },
-            {
-              "content": "`replace`",
-              "key": "C"
-            },
-            {
-              "content": "`push`",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "e5f0e3b1-e56b-4fd3-9211-86b2ad57a078",
-          "type": "SingleChoice",
-          "content": "Vectors and HashMap needs to be explicitly included in the scope.\n",
-          "hint": "NoHint",
-          "explanation": "Only HashMap need to be explicitly included in the scope.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "collection_vector"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "True",
-              "key": "A"
-            },
-            {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "af1c8fe0-c248-4b59-b0f5-bab0975fc93e",
-          "type": "MultipleChoice",
-          "content": "Which of the following are methods available on Strings ?\n",
-          "hint": "NoHint",
-          "explanation": "Methods `contains` and `trim` are available on Strings.",
-          "answerKeys": [
-            "C, D"
-          ],
-          "subTopics": [
-            "collection_vector"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "`index`",
-              "key": "A"
-            },
-            {
-              "content": "`length`",
-              "key": "B"
-            },
-            {
-              "content": "`contains`",
-              "key": "C"
-            },
-            {
-              "content": "`trim`",
-              "key": "D"
-            }
-          ]
-        }
-      ],
-      "readings": [
-        {
-          "uuid": "037554bd-80e3-40bd-8bb5-60633cffef7d",
-          "title": "Rust - Collections",
-          "shortTitle": "Collections",
-          "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=tTUFl8c_Z0w",
-          "subTopics": [
-            "collection_vector",
-            "collection_strings"
-          ],
-          "details": "Introduction to popular collection types in Rust\n* Vec<T>\n* HashMap<K, V>\n* HashSet<T>\n* VecDeque<T>\n* LinkedList<T>\n"
-        },
-        {
-          "uuid": "9d8a8dbd-3dd4-44aa-8d79-8e10dddb23fe",
-          "shortTitle": "Collections Demo",
-          "details": "Demo of code written using Collection Data Structures in Rust\n\n\nsss",
-          "title": "Rust - Collections Demo",
-          "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=rfJjJ02JSLs",
-          "subTopics": []
-        }
-      ],
-      "summaries": [
-        {
-          "title": "Introduction",
-          "shortTitle": "Introduction",
-          "key": "collection_introduction",
-          "details": "- Collections are useful data structure in Rust that can contain multiple values.\n- Collections can contain multiple values\n- Collections are stored on Heap and are dynamically sized, their size is not required to be known at compile time\n- Rust collections can be grouped into 4 major categories:\n  * Sequences - Vec, VecDeque, LinkedList\n  * Maps - HashMap, BTreeMap\n  * sets: HashSet, BTreeSet\n  * Misc: BinaryHeap\n- 3 of most common collections are:\n  * Vector\n  * String\n  * HashMap\n"
-        },
-        {
-          "title": "Vector",
-          "shortTitle": "Vector",
-          "key": "collection_vector",
-          "details": "- Vector allow to store more than 1 value in single data structure.\n- Vector has multiple items of same time stored next to each other in memory.\n- Creating a vector\n  * creating an empty vector\n    ```\n    let v: Vec<i32> = Vec::new();\n    ```\n  * creating vector using vec! macro\n    ```\n    let v = vec![1, 2, 3];\n    ```\n- Adding a value of a vector\n  * Value can be added to vector using method `push`\n    ```\n    let mut v = Vec::new();\n\n    v.push(10);\n    v.push(20);\n    v.push(30);\n    ```\n- Reading elements of a vector\n  * There are 2 ways to read elements in vector - indexing, using get method\n  * Indexing\n    ```\n    let v = Vec![1,2,3,4,5];\n    let third = &v[2];\n\n    println!(“The third element is {}”, third);\n\n    ```\n  * Using get method\n    ```\n    let v = Vec![1,2,3,4,5];\n    let third = v.get(2);\n\n    println!(“The third element is {}”, third);\n    ```\n  * If user access a value outside the vector, if using indexing it will panic, if `get` method it will return None.\n  * According to borrow checker rule, if there is a reference created to an element in the vector, vector can not be modified.\n- Iterating over vector\n  * For loop can be used to iterate over vector\n    ```\n    let v = Vec![1,2,3,4,5];\n    for i in &v {\n        println!(“{}”, i);\n    }\n    ```\n  * To mutate a vector while iterating\n    ```\n    let mut v = Vec![1,2,3,4,5];\n    for i in &mut v {\n        *i += 50;\n        println!(“{}”, i);\n    }\n    ```\n- Useful method in vector\n  * len `vec.len()`: gives length of the vector\n  * capacity `vec.capacity()`: gives total capacity of the vector in bytes\n  * contains `vec.contains(v)`: check if a vector contains the element\n  * remove `vec.remove(index)`: remove an element from specified index in the vector\n  * pop `vec.pop()`: remove an element from end of the vector\n  * push `vec.push(v)`: adds an element to the end of the vector\n"
-        },
-        {
-          "title": "Strings",
-          "shortTitle": "Strings",
-          "key": "collection_strings",
-          "details": "- Strings in Rust are a collection of bytes.\n- Strings are collection of bytes that support UTF-8 encoded text.\n- Thus different characters of most languages can be represented in Rust.\n- Creating a string:\n  * Empty string can be created as\n    ```\n    let mut s = String::new();\n    ```\n  * Creating a string with initial value\n    ```\n    let s = “initial_value”.to_string();\n    or\n    let s = String::from(“initial_value”);\n    ```\n- Updating a string:\n  * Text can be appended to string using `push_str` and `push` methods.\n    * `push_str` ethod can be used to append a string to another.\n    * Signature of `push_str` is `pub fn push_str(&mut self, string: &str)`\n    * `push_str` does not take ownership of the string passed.\n      ```\n      let mut s = String::from(“Hello, ”);\n      s.push_str(“world”);\n      ```\n    * `push` method can be used to append single character to string:\n      ```\n      let mut s = String::from(“Ca”);\n      s.push(“t”);\n      ```\n  * Strings can be concatenated using + macro\n    ```\n    let s1 = “Hello, “;\n    let s2 = “world!“;\n\n    let s3 = s1 + &s2;\n    ```\n    * + macro uses a method whose signature is `fn add(self, s: &str) -> string`\n    * in above example string s1 is moved and is not accessible after concatenation while reference to string &s2 is appended to it.\n  * For a more complicated string combining format! macro can be used:\n    ```\n    let s1 = “tic”;\n    let s1 = “tac”;\n    let s1 = “toe”;\n\n    let s = format!(“{}-{}-{}”, s1, s2, s3);\n    ```\n- Rust does not allow indexing strings. This limitation comes from the way strings are implemented in rust. Strings are internally array of bytes.\n- Iterating over string:\n  * A string can be tokenized on while space or any character token:\n    ```\n    for s in str.split_whitespace {\n        println!(“{}”, found);\n    }\n\n    for s in str.split(‘,’) {\n        println!(“{}”, found);\n    }\n    ```\n  * It is also possible to iterate over characters or bytes of string:\n    ```\n    for c in “Зд”.chars() {\n        println!(c);\n    }\n    // above will print\n    // 3\n    // д\n    ```\n\n    ```\n    for c in “Зд”.bytes() {\n        println!(c);\n    }\n\n    // Will print:\n    // 208\n    // 151\n    // 208\n    // 180\n    ```\n- Other useful string methods include:\n  * len `str.len()`: gives length of the string\n  * capacity `str.capacity()`: gives total capacity of the string in bytes\n  * contains `str.contains(v)`: find a substring in the parent string\n  * replace `str.replace(\"replace_str1\", \"replace_str2\")`: replace a substring in the parent string\n  * trim `str.trim()`: trim a string\n"
-        },
-        {
-          "title": "HashMap",
-          "shortTitle": "HashMap",
-          "key": "collection_hashmap",
-          "details": "- HashMap stores a mapping of keys to value.\n- The type HashMap<K, V> stores a mapping of keys of type K to values of type V\n- Mapping from key K to value V is done using hashing that determines how these values are placed in memory.\n- Keys in hashMap can be of any type but all the kes should be of same type, similarly all the values should also be of same type.\n- Creating a HashMap:\n  * HashMap needs to be explicitly included in the scope.\n  * Also, there is no support of macro for creating HashMap.\n  * HashMap can be created as follows:\n    ```\n    use std::collections::HashMap;\n\n    let mut scores = HashMap::New();\n\n    scores.insert(String::from(“Blue”), 10);\n    scores.insert(String::from(“Yellow”), 20);\n    ```\n- Accessing values in HashMap\n  * values in HashMap can be accessed using `get` function:\n    ```\n    use std::collections::HashMap;\n\n    let mut scores = HashMap::New();\n\n    scores.insert(String::from(“Blue”), 10);\n    scores.insert(String::from(“Yellow”), 20);\n\n    let team_name = String::from(“Blue”);\n    const score = scores.get(team_name);\n    ```\n  * It is also possible to iterate over values of a HashMap:\n    ```\n    use std::collections::HashMap;\n\n    let mut scores = HashMap::New();\n\n    scores.insert(String::from(“Blue”), 10);\n    scores.insert(String::from(“Yellow”), 20);\n\n      for (key, value) in & scores {\n          println!(“{}, {}”, key, value);\n      }\n    ```\n  * Updating a HashMap\n    - A value in HashMap can be overridden by inserting the kay again.\n      ```\n      use std::collections::HashMap;\n\n      let mut scores = HashMap::New();\n\n      scores.insert(String::from(“Blue”), 10);\n      scores.insert(String::from(“Blue”), 20);\n\n      println!(“{:?}”, scores); // this will print {“Blue”: 20}\n      ```\n    - Function `or_insert` can be used to add a key if it is not already present:\n      ```\n      use std::collections::HashMap;\n\n      let mut scores = HashMap::New();\n      scores.insert(String::from(“Blue”), 10);\n\n\n      scores.entry(String::from(“Yello”)).or_insert(20);\n      scores.entry(String::from(“Blue”)).or_insert(50);\n\n      println!(“{:?}”, scores); // this will print {“Yellow”: 20, “Blue”: 10}\n      ```\n"
-        }
-      ]
-    },
-    {
       "title": "Pointers and Iterators",
       "key": "point-iter",
       "details": "This chapter explains about pointers and iterators in detail.\n - Reference type pointers\n - Raw Pointers\n - Smart Pointers \n    1. Types\n    2. Drop\n    3. Deref and DerefMUT\n - Uses of Interior Mutability\n - Introduction to Iterators\n - Uses and advantages of Iterators\n",
@@ -8343,6 +7978,371 @@
           "shortTitle": "Package Manager",
           "key": "package-manager",
           "details": "- A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer in a consistent manner.\n- Cargo is the Rust package manager.\n"
+        }
+      ]
+    },
+    {
+      "title": "Collections",
+      "key": "collections",
+      "details": "This chapter talks about various popular pre-written Data Structures that are available in rust.\n - Vec<T>\n - String\n - HashMap<K, V>\n",
+      "order": 5,
+      "questions": [
+        {
+          "uuid": "1469d4ec-d02a-4a3c-83a6-cbe9f2fb7fe7",
+          "type": "SingleChoice",
+          "content": "Where in the mempry are colections stored\n",
+          "hint": "NoHint",
+          "explanation": "Collections are dynamically sized ans tored on heap.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "collection_introduction"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Stack",
+              "key": "A"
+            },
+            {
+              "content": "Program Area",
+              "key": "B"
+            },
+            {
+              "content": "Heap",
+              "key": "C"
+            }
+          ]
+        },
+        {
+          "uuid": "671ebf9a-bafe-4b27-a98f-acd14f0b1dc1",
+          "type": "SingleChoice",
+          "content": "What is the output of the following code snippet:\n \n    ``` \n        let v = Vec![1,2,3,4,5];\n        let third = &v[10];\n\n        println!(“The third element is {}”, third);\n    ```\n",
+          "hint": "NoHint",
+          "explanation": "Trying to index vector outside it boundries result in panic.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "collection_vector"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It prints None",
+              "key": "A"
+            },
+            {
+              "content": "It does not print anything",
+              "key": "B"
+            },
+            {
+              "content": "It prints 5",
+              "key": "C"
+            },
+            {
+              "content": "It will resume in panic",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "87b313aa-61ae-4f6f-b251-95028a5eea9d",
+          "type": "SingleChoice",
+          "content": "What is the output of the following code snippet:\n \n    ``` \n        let v = Vec![1,2,3,4,5];\n        let third = v.get(2);\n\n        println!(“The third element is {}”, third);\n    ```\n",
+          "hint": "NoHint",
+          "explanation": "Trying to index vector outside it boundries result in panic.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "collection_vector"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It prints None",
+              "key": "A"
+            },
+            {
+              "content": "It does not print anything",
+              "key": "B"
+            },
+            {
+              "content": "It prints 5",
+              "key": "C"
+            },
+            {
+              "content": "It will resume in panic",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "776ca2cf-bfe1-4fbf-83a2-65432535d6e9",
+          "type": "SingleChoice",
+          "content": "Strings in Rust support which encoding:\n",
+          "hint": "NoHint",
+          "explanation": "Strings in Rust support UTF-8 encoding.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "collection_strings"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "UTF-8",
+              "key": "A"
+            },
+            {
+              "content": "Unicode",
+              "key": "B"
+            },
+            {
+              "content": "ASCII",
+              "key": "C"
+            },
+            {
+              "content": "UTF-32",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a57b1b01-84cb-4a59-8eb7-d22440e8b6d5",
+          "type": "SingleChoice",
+          "content": "What is the output of the following code snippet:\n \n    ``` \n        let s1 = “Hello, “;\n        let s2 = “world!“;\n        let s3 = s1 + &s2;\n\n        println!(s1 is {}”, s1);\n    ```\n",
+          "hint": "NoHint",
+          "explanation": "When using + macro first argument is moved and not accessible after that.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "collection_strings"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Program will not compile",
+              "key": "A"
+            },
+            {
+              "content": "It prints Hello, ",
+              "key": "B"
+            },
+            {
+              "content": "It prints Hello, world!",
+              "key": "C"
+            },
+            {
+              "content": "It prints None",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "08f69431-88dd-4e54-91ea-6e462181a4b3",
+          "type": "SingleChoice",
+          "content": "How can strings be indexed in Rust ?\n",
+          "hint": "NoHint",
+          "explanation": "String indexing is not allowed in Rust.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "collection_strings"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "`str[1]`",
+              "key": "A"
+            },
+            {
+              "content": "String indexing does not works in Rust",
+              "key": "B"
+            },
+            {
+              "content": "`str.1`",
+              "key": "C"
+            },
+            {
+              "content": "`str.get(1)`",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "96c4703a-812b-4428-b211-945ef8bdc46f",
+          "type": "SingleChoice",
+          "content": "Which hashmap method can be used to add an entry to map only if it does not already exists ?\n",
+          "hint": "NoHint",
+          "explanation": "`or_insert` will insert an entry into HashMap only if it does not already exist.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "collection_hashmap"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "`insert`",
+              "key": "A"
+            },
+            {
+              "content": "`push`",
+              "key": "B"
+            },
+            {
+              "content": "`or_insert`",
+              "key": "C"
+            },
+            {
+              "content": "`insert_or`",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "d74074f8-3849-4c74-aa6b-3cbddb0ad97d",
+          "type": "MultipleChoice",
+          "content": "Which of the following are methods available on Vectors ?\n",
+          "hint": "NoHint",
+          "explanation": "Methods `len` and `push` are available on Vectors.",
+          "answerKeys": [
+            "A, D"
+          ],
+          "subTopics": [
+            "collection_vector"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "`len`",
+              "key": "A"
+            },
+            {
+              "content": "`length`",
+              "key": "B"
+            },
+            {
+              "content": "`replace`",
+              "key": "C"
+            },
+            {
+              "content": "`push`",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e5f0e3b1-e56b-4fd3-9211-86b2ad57a078",
+          "type": "SingleChoice",
+          "content": "Vectors and HashMap needs to be explicitly included in the scope.\n",
+          "hint": "NoHint",
+          "explanation": "Only HashMap need to be explicitly included in the scope.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "collection_vector"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "True",
+              "key": "A"
+            },
+            {
+              "content": "False",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "af1c8fe0-c248-4b59-b0f5-bab0975fc93e",
+          "type": "MultipleChoice",
+          "content": "Which of the following are methods available on Strings ?\n",
+          "hint": "NoHint",
+          "explanation": "Methods `contains` and `trim` are available on Strings.",
+          "answerKeys": [
+            "C, D"
+          ],
+          "subTopics": [
+            "collection_vector"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "`index`",
+              "key": "A"
+            },
+            {
+              "content": "`length`",
+              "key": "B"
+            },
+            {
+              "content": "`contains`",
+              "key": "C"
+            },
+            {
+              "content": "`trim`",
+              "key": "D"
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "037554bd-80e3-40bd-8bb5-60633cffef7d",
+          "title": "Rust - Collections",
+          "shortTitle": "Collections",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=tTUFl8c_Z0w",
+          "subTopics": [
+            "collection_vector",
+            "collection_strings"
+          ],
+          "details": "Introduction to popular collection types in Rust\n* Vec<T>\n* HashMap<K, V>\n* HashSet<T>\n* VecDeque<T>\n* LinkedList<T>\n"
+        },
+        {
+          "uuid": "9d8a8dbd-3dd4-44aa-8d79-8e10dddb23fe",
+          "shortTitle": "Collections Demo",
+          "details": "Demo of code written using Collection Data Structures in Rust\n\n\nsss",
+          "title": "Rust - Collections Demo",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=rfJjJ02JSLs",
+          "subTopics": []
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Introduction",
+          "shortTitle": "Introduction",
+          "key": "collection_introduction",
+          "details": "- Collections are useful data structure in Rust that can contain multiple values.\n- Collections can contain multiple values\n- Collections are stored on Heap and are dynamically sized, their size is not required to be known at compile time\n- Rust collections can be grouped into 4 major categories:\n  * Sequences - Vec, VecDeque, LinkedList\n  * Maps - HashMap, BTreeMap\n  * sets: HashSet, BTreeSet\n  * Misc: BinaryHeap\n- 3 of most common collections are:\n  * Vector\n  * String\n  * HashMap\n"
+        },
+        {
+          "title": "Vector",
+          "shortTitle": "Vector",
+          "key": "collection_vector",
+          "details": "- Vector allow to store more than 1 value in single data structure.\n- Vector has multiple items of same time stored next to each other in memory.\n- Creating a vector\n  * creating an empty vector\n    ```\n    let v: Vec<i32> = Vec::new();\n    ```\n  * creating vector using vec! macro\n    ```\n    let v = vec![1, 2, 3];\n    ```\n- Adding a value of a vector\n  * Value can be added to vector using method `push`\n    ```\n    let mut v = Vec::new();\n\n    v.push(10);\n    v.push(20);\n    v.push(30);\n    ```\n- Reading elements of a vector\n  * There are 2 ways to read elements in vector - indexing, using get method\n  * Indexing\n    ```\n    let v = Vec![1,2,3,4,5];\n    let third = &v[2];\n\n    println!(“The third element is {}”, third);\n\n    ```\n  * Using get method\n    ```\n    let v = Vec![1,2,3,4,5];\n    let third = v.get(2);\n\n    println!(“The third element is {}”, third);\n    ```\n  * If user access a value outside the vector, if using indexing it will panic, if `get` method it will return None.\n  * According to borrow checker rule, if there is a reference created to an element in the vector, vector can not be modified.\n- Iterating over vector\n  * For loop can be used to iterate over vector\n    ```\n    let v = Vec![1,2,3,4,5];\n    for i in &v {\n        println!(“{}”, i);\n    }\n    ```\n  * To mutate a vector while iterating\n    ```\n    let mut v = Vec![1,2,3,4,5];\n    for i in &mut v {\n        *i += 50;\n        println!(“{}”, i);\n    }\n    ```\n- Useful method in vector\n  * len `vec.len()`: gives length of the vector\n  * capacity `vec.capacity()`: gives total capacity of the vector in bytes\n  * contains `vec.contains(v)`: check if a vector contains the element\n  * remove `vec.remove(index)`: remove an element from specified index in the vector\n  * pop `vec.pop()`: remove an element from end of the vector\n  * push `vec.push(v)`: adds an element to the end of the vector\n"
+        },
+        {
+          "title": "Strings",
+          "shortTitle": "Strings",
+          "key": "collection_strings",
+          "details": "- Strings in Rust are a collection of bytes.\n- Strings are collection of bytes that support UTF-8 encoded text.\n- Thus different characters of most languages can be represented in Rust.\n- Creating a string:\n  * Empty string can be created as\n    ```\n    let mut s = String::new();\n    ```\n  * Creating a string with initial value\n    ```\n    let s = “initial_value”.to_string();\n    or\n    let s = String::from(“initial_value”);\n    ```\n- Updating a string:\n  * Text can be appended to string using `push_str` and `push` methods.\n    * `push_str` ethod can be used to append a string to another.\n    * Signature of `push_str` is `pub fn push_str(&mut self, string: &str)`\n    * `push_str` does not take ownership of the string passed.\n      ```\n      let mut s = String::from(“Hello, ”);\n      s.push_str(“world”);\n      ```\n    * `push` method can be used to append single character to string:\n      ```\n      let mut s = String::from(“Ca”);\n      s.push(“t”);\n      ```\n  * Strings can be concatenated using + macro\n    ```\n    let s1 = “Hello, “;\n    let s2 = “world!“;\n\n    let s3 = s1 + &s2;\n    ```\n    * + macro uses a method whose signature is `fn add(self, s: &str) -> string`\n    * in above example string s1 is moved and is not accessible after concatenation while reference to string &s2 is appended to it.\n  * For a more complicated string combining format! macro can be used:\n    ```\n    let s1 = “tic”;\n    let s1 = “tac”;\n    let s1 = “toe”;\n\n    let s = format!(“{}-{}-{}”, s1, s2, s3);\n    ```\n- Rust does not allow indexing strings. This limitation comes from the way strings are implemented in rust. Strings are internally array of bytes.\n- Iterating over string:\n  * A string can be tokenized on while space or any character token:\n    ```\n    for s in str.split_whitespace {\n        println!(“{}”, found);\n    }\n\n    for s in str.split(‘,’) {\n        println!(“{}”, found);\n    }\n    ```\n  * It is also possible to iterate over characters or bytes of string:\n    ```\n    for c in “Зд”.chars() {\n        println!(c);\n    }\n    // above will print\n    // 3\n    // д\n    ```\n\n    ```\n    for c in “Зд”.bytes() {\n        println!(c);\n    }\n\n    // Will print:\n    // 208\n    // 151\n    // 208\n    // 180\n    ```\n- Other useful string methods include:\n  * len `str.len()`: gives length of the string\n  * capacity `str.capacity()`: gives total capacity of the string in bytes\n  * contains `str.contains(v)`: find a substring in the parent string\n  * replace `str.replace(\"replace_str1\", \"replace_str2\")`: replace a substring in the parent string\n  * trim `str.trim()`: trim a string\n"
+        },
+        {
+          "title": "HashMap",
+          "shortTitle": "HashMap",
+          "key": "collection_hashmap",
+          "details": "- HashMap stores a mapping of keys to value.\n- The type HashMap<K, V> stores a mapping of keys of type K to values of type V\n- Mapping from key K to value V is done using hashing that determines how these values are placed in memory.\n- Keys in hashMap can be of any type but all the kes should be of same type, similarly all the values should also be of same type.\n- Creating a HashMap:\n  * HashMap needs to be explicitly included in the scope.\n  * Also, there is no support of macro for creating HashMap.\n  * HashMap can be created as follows:\n    ```\n    use std::collections::HashMap;\n\n    let mut scores = HashMap::New();\n\n    scores.insert(String::from(“Blue”), 10);\n    scores.insert(String::from(“Yellow”), 20);\n    ```\n- Accessing values in HashMap\n  * values in HashMap can be accessed using `get` function:\n    ```\n    use std::collections::HashMap;\n\n    let mut scores = HashMap::New();\n\n    scores.insert(String::from(“Blue”), 10);\n    scores.insert(String::from(“Yellow”), 20);\n\n    let team_name = String::from(“Blue”);\n    const score = scores.get(team_name);\n    ```\n  * It is also possible to iterate over values of a HashMap:\n    ```\n    use std::collections::HashMap;\n\n    let mut scores = HashMap::New();\n\n    scores.insert(String::from(“Blue”), 10);\n    scores.insert(String::from(“Yellow”), 20);\n\n      for (key, value) in & scores {\n          println!(“{}, {}”, key, value);\n      }\n    ```\n  * Updating a HashMap\n    - A value in HashMap can be overridden by inserting the kay again.\n      ```\n      use std::collections::HashMap;\n\n      let mut scores = HashMap::New();\n\n      scores.insert(String::from(“Blue”), 10);\n      scores.insert(String::from(“Blue”), 20);\n\n      println!(“{:?}”, scores); // this will print {“Blue”: 20}\n      ```\n    - Function `or_insert` can be used to add a key if it is not already present:\n      ```\n      use std::collections::HashMap;\n\n      let mut scores = HashMap::New();\n      scores.insert(String::from(“Blue”), 10);\n\n\n      scores.entry(String::from(“Yello”)).or_insert(20);\n      scores.entry(String::from(“Blue”)).or_insert(50);\n\n      println!(“{:?}”, scores); // this will print {“Yellow”: 20, “Blue”: 10}\n      ```\n"
         }
       ]
     }
