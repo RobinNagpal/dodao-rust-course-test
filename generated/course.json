@@ -2,8 +2,8 @@
   "key": "rust-course",
   "title": "Rust Course (In Progress)",
   "summary": "Smart contracts allow users to implement conditions, rules and policies of the blockchain applications. \nIn this course you will learn how to write smart contracts and all the features of Rust language.\n\nMore\n",
-  "details": "\"Line1\" \n\"Line2\" \n\"Line3\"\n\n\"Line4\"\n",
-  "duration": "4 - 6 hours",
+  "details": "\"Line1\" \n\"Line2\" \n\"Line3\"\n\n\"Line4\"\n\"Line 5\"",
+  "duration": "4 - 7 hours",
   "highlights": [
     "Rust smart contracts",
     "All the features of Rust",
@@ -12,7 +12,7 @@
     "sadasddd",
     "asddddd"
   ],
-  "publishStatus": "Draft",
+  "publishStatus": "Live",
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/Rust/rust-logo-512x512.png",
   "topics": [
     {
