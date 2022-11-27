@@ -1,8 +1,11 @@
 title: Rust Course (In Progress)
 key: rust-course
-summary: |
-  Smart contracts allow users to implement conditions, rules and policies of the blockchain applications. 
-  In this course you will learn how to write smart contracts and all the features of Rust language.
+summary: >
+  Smart contracts allow users to implement conditions, rules and policies of the
+  blockchain applications. 
+
+  In this course you will learn how to write smart contracts and all the
+  features of Rust language.
 details: |
   "Line1" 
   "Line2" 
@@ -18,8 +21,9 @@ thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/Rust/rust-logo-51
 topics:
   - title: Your First Solana Smart Contract
     key: first-smart-contract
-    details: |
-      This chapter introduces you to the world of solana smart contracts written in rust. Covered topics in this chapter
+    details: >
+      This chapter introduces you to the world of solana smart contracts written
+      in rust. Covered topics in this chapter
        - Introduction to a simple smart contract
        - Explanation of the whole smart contract
        - Project Management with Cargo Crates
@@ -32,11 +36,12 @@ topics:
     questions: data_types.yaml
     status: In Progress
     completionWeek: July 18
-
   - title: Data Types
     key: first-smart-contract
-    details: |
-      This chapter covers all in-depth knowledge about variables, mutability, and the various data types available in rust. Covered topics in this chapter
+    details: >
+      This chapter covers all in-depth knowledge about variables, mutability,
+      and the various data types available in rust. Covered topics in this
+      chapter
        - Variables and Immutability
           1. How to declare variables
           2. How mut works
@@ -77,11 +82,11 @@ topics:
     questions: data_types.yaml
     status: In Progress
     completionWeek: July 18
-
   - title: Control Flow & Functions
     key: control-flow-functions
-    details: |
-      This chapter talks in-depth about the conditional statements, for and while loops, functions in rust, and Error handling.
+    details: >
+      This chapter talks in-depth about the conditional statements, for and
+      while loops, functions in rust, and Error handling.
        - Conditional Statements
           1. If-Else statements
           2. Nested If-Else, nested If statements
@@ -104,17 +109,16 @@ topics:
           4. Non-recoverable errors
             a. Panics
           5. Custom Errors
-
     readings: control_flow.yaml
     summaries: control_flow.yaml
     questions: control_flow.yaml
     status: In Progress
     completionWeek: July 18
-
   - title: OOPS(Object Oriented Programming)
     key: oops
-    details: |
-      This chapter covers all the important object oriented programming concepts with rust.
+    details: >
+      This chapter covers all the important object oriented programming concepts
+      with rust.
        - Structs
           1. Introduction and Defining a Struct
           2. Different types of structs
@@ -151,11 +155,11 @@ topics:
     questions: data_types.yaml
     status: In Progress
     completionWeek: July 18
-
   - title: Ownership and Borrowing
     key: owner-borrow
-    details: |
-      This chapter introduces the high level memory management and safety with ownership and borrowing.
+    details: >
+      This chapter introduces the high level memory management and safety with
+      ownership and borrowing.
        - Memory Allocation and Memory Types
           1. Stacks
           2. Heaps
@@ -188,11 +192,11 @@ topics:
     questions: owner_borrow.yaml
     status: In Progress
     completionWeek: July 18
-
   - title: Collections
     key: collections
-    details: |
-      This chapter talks about various popular pre-written Data Structures that are available in rust.
+    details: >
+      This chapter talks about various popular pre-written Data Structures that
+      are available in rust.
        - Vec<T>
        - String
        - HashMap<K, V>
@@ -201,7 +205,6 @@ topics:
     questions: collections.yaml
     status: In Progress
     completionWeek: July 18
-
   - title: Pointers and Iterators
     key: point-iter
     details: |
