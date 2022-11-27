@@ -194,7 +194,7 @@ topics:
           3. Deref and DerefMUT
        - Uses of Interior Mutability
        - Introduction to Iterators
-       - Uses and advantages of Iterators
+       - Uses and advantages of Iterator
     readings: data_types.yaml
     summaries: data_types.yaml
     questions: data_types.yaml

@@ -6948,7 +6948,7 @@
     {
       "title": "Pointers and Iterators",
       "key": "point-iter",
-      "details": "This chapter explains about pointers and iterators in detail.\n - Reference type pointers\n - Raw Pointers\n - Smart Pointers \n    1. Types\n    2. Drop\n    3. Deref and DerefMUT\n - Uses of Interior Mutability\n - Introduction to Iterators\n - Uses and advantages of Iterators\n",
+      "details": "This chapter explains about pointers and iterators in detail.\n - Reference type pointers\n - Raw Pointers\n - Smart Pointers \n    1. Types\n    2. Drop\n    3. Deref and DerefMUT\n - Uses of Interior Mutability\n - Introduction to Iterators\n - Uses and advantages of Iterator\n",
       "order": 6,
       "questions": [
         {
