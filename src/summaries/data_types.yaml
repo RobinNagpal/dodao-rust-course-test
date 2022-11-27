@@ -14,6 +14,35 @@
       * The compiler can use the type system to provide language features that are more expressive and succinct.
       * Some examples of Statically-Typed Languages are:- C++, Rust, C, Java, etc.
     - Rust is a Statically-Typed Language
+- title: Variables
+  shortTitle: Variables
+  key: variables
+  details: |
+    - Variables are used to store the values of a particular data type
+    - Variables and Mutability
+      * In Rust, variables are immutable in nature by default.
+      * When a variable is immutable, once a value is bound to a name, you can’t change that value
+      * To make the variables mutable, we use the keyword:- `mut`.
+      * For Example:-
+        ```
+          fn main() {
+              let mut x = 5;
+              println!("The value of x is: {x}");
+              x = 6;
+              println!("The value of x is: {x}");
+          }
+        ```
+    - Constants
+      * Constants are values that are bound to a name and are not allowed to change, i.e. they are also immutable.
+      * Usage of keyword `mut` isn't allowed with constants.
+      * Constants are immutable by default, and also they’re always immutable.
+      * We declare constants using the `const` keyword instead of the `let` keyword, and the type of the value must be annotated.
+      * Constants can be declared in any scope, including the global scope, making them useful for values that many parts of code need to know about.
+      * Constants may be set only to a constant expression, not the result of a value that could only be computed at runtime.
+      * For Example:-
+        ```
+          const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
+        ```
 - title: Value Types
   shortTitle: Value Types
   key: value-types
@@ -98,35 +127,6 @@
                 let second = a[1]; // outputs 2
             }
           ```
-- title: Variables
-  shortTitle: Variables
-  key: variables
-  details: |
-    - Variables are used to store the values of a particular data type
-    - Variables and Mutability
-      * In Rust, variables are immutable in nature by default.
-      * When a variable is immutable, once a value is bound to a name, you can’t change that value
-      * To make the variables mutable, we use the keyword:- `mut`.
-      * For Example:-
-        ```
-          fn main() {
-              let mut x = 5;
-              println!("The value of x is: {x}");
-              x = 6;
-              println!("The value of x is: {x}");
-          }
-        ```
-    - Constants
-      * Constants are values that are bound to a name and are not allowed to change, i.e. they are also immutable.
-      * Usage of keyword `mut` isn't allowed with constants.
-      * Constants are immutable by default, and also they’re always immutable.
-      * We declare constants using the `const` keyword instead of the `let` keyword, and the type of the value must be annotated.
-      * Constants can be declared in any scope, including the global scope, making them useful for values that many parts of code need to know about.
-      * Constants may be set only to a constant expression, not the result of a value that could only be computed at runtime.
-      * For Example:-
-        ```
-          const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
-        ```
 - title: Keywords
   shortTitle: Keywords
   key: keywords
