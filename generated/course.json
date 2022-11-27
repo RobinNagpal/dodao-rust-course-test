@@ -18,7 +18,7 @@
     {
       "title": "Your First Solana Smart Contract",
       "key": "first-smart-contract",
-      "details": "This chapter introduces you to the world of solana smart contracts written in rust. Covered topics in this chapter\n - Introduction to a simple smart contract\n - Explanation of the whole smart contract\n - Project Management with Cargo Crates\n    1. Installing Cargo\n    2. Packages and Crates\n    3. toml and Project formats\n    4. Cargo Commands\n",
+      "details": "This chapter introduces you to the world of Solana smart contracts written in rust. Covered topics in this chapter\n - Introduction to a simple smart contract\n - Explanation of the whole smart contract\n - Project Management with Cargo Crates\n    1. Installing Cargo\n    2. Packages and Crates\n    3. toml and Project formats\n    4. Cargo Commands\n",
       "order": 0,
       "questions": [
         {
@@ -1469,9 +1469,9 @@
       ]
     },
     {
-      "title": "Data Types",
+      "title": "Your First Solana Smart Contract",
       "key": "first-smart-contract",
-      "details": "This chapter covers all in-depth knowledge about variables, mutability, and the various data types available in rust. Covered topics in this chapter\n - Variables and Immutability\n    1. How to declare variables\n    2. How mut works\n    3. Constants\n    4. Shadowing\n - Different Data Types\n    1. Scalar Data Types\n    2. Compound Data Types\n - Scalar Data Type\n    1. Integer Types\n      a. Signed and Unsigned Integers\n      b. Allowed integer sizes in rust\n      c. Declaration and Rules for Integers\n    2. Floating-Point Types\n      a. Types of Floating-points available\n      b. Declaration and Rules for Floating-Points\n    3. Boolean Types\n      a. Types of booleans\n      b. Declaration and Rules\n    4. Characters\n      a. ASCII vs Unicode Scalar Values\n      b. How character types in rust are different\n  - Compound Data Types\n    1. Arrays\n      a. When and how to use Arrays\n      b. Declaration and general rules for Arrays\n    2. Tuples\n      a. When and how to use Tuples\n      b. Declaration and general rules for Tuples\n      c. Difference between Arrays and Tuples.\n  - Strings\n    1. UTF8 set\n    2. Owned Strings: \"String\"\n    3. String Slice: \"&str\"\n    4. Difference between \"String\" and \"&str\"\n",
+      "details": "This chapter introduces you to the world of Solana smart contracts written in rust. Covered topics in this chapter\n - Introduction to a simple smart contract\n - Explanation of the whole smart contract\n - Project Management with Cargo Crates\n    1. Installing Cargo\n    2. Packages and Crates\n    3. toml and Project formats\n    4. Cargo Commands\n",
       "order": 1,
       "questions": [
         {
