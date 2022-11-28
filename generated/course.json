@@ -8382,6 +8382,28 @@
               "key": "c701a33a"
             }
           ]
+        },
+        {
+          "uuid": "5560d3b8-3fb0-4c14-9d2a-1f6e8df242dc",
+          "type": "MultipleChoice",
+          "content": "fgdfg",
+          "hint": "ggg",
+          "explanation": "fdgdfgdfg",
+          "answerKeys": [
+            "feb8d4f4"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "dfgdfg",
+              "key": "A"
+            },
+            {
+              "content": "ggggghh",
+              "key": "feb8d4f4"
+            }
+          ]
         }
       ]
     }
