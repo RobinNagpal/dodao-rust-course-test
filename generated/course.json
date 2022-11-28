@@ -8350,7 +8350,14 @@
       "key": "new-chapter",
       "title": "New Chapter",
       "details": "adasd\n\n-adasd\n\n-asdasd\n--asdasd",
-      "explanations": [],
+      "explanations": [
+        {
+          "key": "ghfghfghfghfgh",
+          "shortTitle": "sdfsdfdgfg",
+          "details": "xcvsdf\n\nsdf\nsd\nf\nsd\nf\nsdf",
+          "title": "ghfghfghfghfgh"
+        }
+      ],
       "readings": [
         {
           "uuid": "816df393-adb3-4067-88ac-6ece0b2c3b7f",
