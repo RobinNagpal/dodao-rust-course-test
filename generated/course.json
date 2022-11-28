@@ -8360,7 +8360,30 @@
           "details": "dddfwewerwer \n\ndddfwewerwer\n\ndddfwewerwer3333\n\nqsdads"
         }
       ],
-      "questions": []
+      "questions": [
+        {
+          "uuid": "e219f813-c30a-4ba9-89a1-86d788e66dcd",
+          "type": "SingleChoice",
+          "content": "dADAD",
+          "hint": "NoHint",
+          "explanation": "DASDDD",
+          "answerKeys": [
+            "c701a33a"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "ASDDD",
+              "key": "A"
+            },
+            {
+              "content": "DDD",
+              "key": "c701a33a"
+            }
+          ]
+        }
+      ]
     }
   ],
   "uuid": "rust-course"

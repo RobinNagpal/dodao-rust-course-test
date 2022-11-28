@@ -1,0 +1,14 @@
+- uuid: ccf6b420-1031-49e8-986f-38e70e8078b3
+  type: SingleChoice
+  content: dADAD
+  hint: NoHint
+  explanation: DASDDD
+  answerKeys:
+    - c701a33a
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: ASDDD
+      key: A
+    - content: DDD
+      key: c701a33a
