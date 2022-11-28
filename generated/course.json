@@ -8351,7 +8351,17 @@
       "title": "New Chapter",
       "details": "adasd\n\n-adasd\n\n-asdasd\n--asdasd",
       "explanations": [],
-      "readings": [],
+      "readings": [
+        {
+          "uuid": "816df393-adb3-4067-88ac-6ece0b2c3b7f",
+          "shortTitle": "dddd frrr",
+          "details": "asd\n\nasd\nasdasd\n\nhttps://www.youtube.com/watch?v=KX7tj3giizIhttps://www.youtube.com/watch?v=KX7tj3giizI",
+          "title": "Some wrwerwr",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=KX7tj3giizI",
+          "subTopics": []
+        }
+      ],
       "summaries": [
         {
           "title": "dddfwewerwer dddfwewerw123 3%%%44",
