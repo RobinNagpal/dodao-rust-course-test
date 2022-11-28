@@ -8365,7 +8365,7 @@
           "uuid": "e219f813-c30a-4ba9-89a1-86d788e66dcd",
           "type": "SingleChoice",
           "content": "dADAD",
-          "hint": "NoHint",
+          "hint": "NoHint 444",
           "explanation": "DASDDD YYYY",
           "answerKeys": [
             "A"
@@ -8374,11 +8374,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "ASDDD",
+              "content": "ASDDD 444",
               "key": "A"
             },
             {
-              "content": "DDD",
+              "content": "DDD55",
               "key": "c701a33a"
             }
           ]
